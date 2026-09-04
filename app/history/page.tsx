@@ -19,7 +19,7 @@ export default function HistoryPage() {
 
   return (
     <div className="space-y-3 py-4">
-      <h2 className="font-serif text-2xl text-gold">{t("nav.history")}</h2>
+      <h2 className="text-shimmer font-serif text-2xl">{t("nav.history")}</h2>
       {readings.map((r) => {
         const spread = getSpread(r.spreadId);
         const cat = CATEGORIES.find((c) => c.id === r.category);

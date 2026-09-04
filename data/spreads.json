@@ -125,5 +125,121 @@
       }
     ],
     "howToRead": "顶部是你此刻的处境；左右两列分别是两个选项各自的能量与走向。对照两条路的画面，帮你看清心里的倾向——但最终选择永远在你自己手里。"
+  },
+  {
+    "id": "self-four",
+    "name": "自我探索四张",
+    "cardCount": 4,
+    "bestFor": ["general", "love", "career"],
+    "positions": [
+      {
+        "index": 0,
+        "order": 1,
+        "label": "表层",
+        "meaning": "你对外呈现的样子",
+        "layout": { "x": 0.3, "y": 0.35 }
+      },
+      {
+        "index": 1,
+        "order": 2,
+        "label": "内在",
+        "meaning": "藏在底下的真实感受",
+        "layout": { "x": 0.7, "y": 0.35 }
+      },
+      {
+        "index": 2,
+        "order": 3,
+        "label": "阻碍",
+        "meaning": "卡住你的东西",
+        "layout": { "x": 0.3, "y": 0.72 }
+      },
+      {
+        "index": 3,
+        "order": 4,
+        "label": "成长",
+        "meaning": "可以练习的方向",
+        "layout": { "x": 0.7, "y": 0.72 }
+      }
+    ],
+    "howToRead": "上排是你的表层与内在——外显的样子与底下的真实感受；下排是当前的阻碍与可练习的成长方向。四张合看，是一次温柔的自我照见。"
+  },
+  {
+    "id": "celtic-cross",
+    "name": "凯尔特十字",
+    "cardCount": 10,
+    "bestFor": ["general", "love", "career", "wealth"],
+    "positions": [
+      {
+        "index": 0,
+        "order": 1,
+        "label": "现状",
+        "meaning": "问题的核心与当下",
+        "layout": { "x": 0.27, "y": 0.44 }
+      },
+      {
+        "index": 1,
+        "order": 2,
+        "label": "挑战",
+        "meaning": "横亘眼前的阻力",
+        "layout": { "x": 0.27, "y": 0.44 }
+      },
+      {
+        "index": 2,
+        "order": 3,
+        "label": "根基",
+        "meaning": "事情的深层根源",
+        "layout": { "x": 0.27, "y": 0.72 }
+      },
+      {
+        "index": 3,
+        "order": 4,
+        "label": "过去",
+        "meaning": "刚过去、正在离开的影响",
+        "layout": { "x": 0.02, "y": 0.44 }
+      },
+      {
+        "index": 4,
+        "order": 5,
+        "label": "目标",
+        "meaning": "你意识中的期望与可能",
+        "layout": { "x": 0.27, "y": 0.16 }
+      },
+      {
+        "index": 5,
+        "order": 6,
+        "label": "未来",
+        "meaning": "即将到来的走向",
+        "layout": { "x": 0.52, "y": 0.44 }
+      },
+      {
+        "index": 6,
+        "order": 7,
+        "label": "自我",
+        "meaning": "你此刻的态度与位置",
+        "layout": { "x": 0.80, "y": 0.74 }
+      },
+      {
+        "index": 7,
+        "order": 8,
+        "label": "环境",
+        "meaning": "外部与他人的影响",
+        "layout": { "x": 0.80, "y": 0.52 }
+      },
+      {
+        "index": 8,
+        "order": 9,
+        "label": "希望与恐惧",
+        "meaning": "你内心的期待与担忧",
+        "layout": { "x": 0.80, "y": 0.30 }
+      },
+      {
+        "index": 9,
+        "order": 10,
+        "label": "结果",
+        "meaning": "顺势发展的最终走向",
+        "layout": { "x": 0.80, "y": 0.10 }
+      }
+    ],
+    "howToRead": "左侧十字呈现问题的核心：现状与挑战交叠，根基、过去、目标、未来环绕四周；右侧由下而上是你自己、外部环境、内心的希望与恐惧，直到最上方的结果。信息量大，慢慢读，先看十字再看竖列。"
   }
 ]

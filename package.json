@@ -9,7 +9,8 @@
     "lint": "eslint",
     "gen:cards": "node scripts/gen-cards.mjs",
     "gen:art": "node scripts/gen-art-manifest.mjs",
-    "gen:art-prompts": "node scripts/gen-art-prompts.mjs"
+    "gen:art-prompts": "node scripts/gen-art-prompts.mjs",
+    "gen:icons": "node scripts/gen-icons.mjs"
   },
   "dependencies": {
     "framer-motion": "^13.2.0",

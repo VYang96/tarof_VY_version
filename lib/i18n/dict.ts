@@ -35,6 +35,10 @@ export const dict = {
   "result.aiComingSoon": { zh: "AI 深度解读将在后续版本开放", en: "AI deep reading is coming in a later version" },
   "result.save": { zh: "保存到历史", en: "Save to history" },
   "result.again": { zh: "再抽一次", en: "Read again" },
+  "result.share": { zh: "分享", en: "Share" },
+  "result.shareCopied": { zh: "已复制到剪贴板", en: "Copied to clipboard" },
+  "result.shareSaved": { zh: "已保存图片", en: "Image saved" },
+  "result.sharing": { zh: "生成中…", en: "Generating…" },
   "result.upright": { zh: "正位", en: "Upright" },
   "result.reversed": { zh: "逆位", en: "Reversed" },
 

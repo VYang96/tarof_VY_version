@@ -68,7 +68,7 @@ export function TarotCard({
         disabled={!onClick}
         style={{ width: size, height }}
         className={`group relative rounded-xl border transition-transform duration-300 ${
-          onClick ? "cursor-pointer hover:-translate-y-1" : "cursor-default"
+          onClick ? "glow-gold cursor-pointer hover:-translate-y-1" : "cursor-default"
         } ${faceDown ? "border-gold/40" : "border-gold/70"}`}
       >
         {faceDown ? (
@@ -127,16 +127,21 @@ export function CardFace({
         />
       )}
 
-      {/* 程序化牌面：兜底 / 加载中 */}
+      {/* 程序化牌面：兜底 / 加载中。逆位只倒转中央符号，牌名/编号保持正立可读 */}
       <div
         className={`absolute inset-0 flex flex-col items-center justify-between px-2 py-3 transition-opacity ${
           imgOk ? "opacity-0" : "opacity-100"
-        } ${reversed ? "rotate-180" : ""}`}
+        }`}
       >
         <span className="font-serif text-xs text-gold-soft">
           {card ? roman(card.number) : ""}
+          {reversed && <span className="ml-1 text-danger">逆</span>}
         </span>
-        <span className="text-4xl text-gold drop-shadow-[0_0_8px_rgba(214,172,87,0.35)]">
+        <span
+          className={`text-4xl text-gold drop-shadow-[0_0_8px_rgba(214,172,87,0.35)] ${
+            reversed ? "rotate-180" : ""
+          }`}
+        >
           {glyph}
         </span>
         <div className="text-center leading-tight">
@@ -152,6 +157,7 @@ export function CardFace({
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent px-2 pb-2 pt-6 text-center">
           <div className="font-serif text-sm text-fg drop-shadow">
             {card?.name ?? ""}
+            {reversed && <span className="ml-1 text-xs text-danger">逆</span>}
           </div>
         </div>
       )}

@@ -59,7 +59,7 @@ export default function DailyPage() {
   return (
     <div className="flex flex-col items-center gap-6 py-6 text-center">
       <div>
-        <h2 className="font-serif text-2xl text-gold">{t("home.daily")}</h2>
+        <h2 className="text-shimmer font-serif text-2xl">{t("home.daily")}</h2>
         <p className="mt-1 text-xs text-fg-muted">{today}</p>
         {streakText && (
           <p className="mt-1 text-xs text-gold-soft">✦ {streakText}</p>

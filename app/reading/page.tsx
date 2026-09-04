@@ -48,20 +48,28 @@ function StepCategory({
 }) {
   return (
     <section className="space-y-6">
-      <h2 className="text-center font-serif text-2xl text-gold">{label}</h2>
-      <div className="grid grid-cols-2 gap-3">
+      <h2 className="text-shimmer text-center font-serif text-2xl">{label}</h2>
+      <motion.div
+        className="grid grid-cols-2 gap-3"
+        initial="hidden"
+        animate="show"
+        variants={{ hidden: {}, show: { transition: { staggerChildren: 0.08 } } }}
+      >
         {CATEGORIES.map((c) => (
-          <button
+          <motion.button
             key={c.id}
+            variants={fadeUp}
+            whileHover={{ y: -3 }}
+            whileTap={{ scale: 0.97 }}
             onClick={() => onPick(c.id)}
-            className="rounded-xl border border-border bg-bg-elev p-5 text-center transition-colors hover:border-gold"
+            className="glow-gold rounded-xl border border-border bg-bg-elev p-5 text-center transition-colors hover:border-gold"
           >
             <span className="font-serif text-lg text-fg">
               {locale === "zh" ? c.zh : c.en}
             </span>
-          </button>
+          </motion.button>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 }
@@ -108,7 +116,7 @@ function StepQuestion() {
 
   return (
     <section className="space-y-5">
-      <h2 className="text-center font-serif text-2xl text-gold">
+      <h2 className="text-shimmer text-center font-serif text-2xl">
         {t("flow.question")}
       </h2>
       <p className="text-center text-xs leading-relaxed text-fg-muted">
@@ -124,7 +132,7 @@ function StepQuestion() {
       <div className="flex justify-center gap-3">
         <button
           onClick={handleNext}
-          className="rounded-full bg-gold px-8 py-2.5 font-serif text-bg transition-opacity hover:opacity-90"
+          className="press glow-gold rounded-full bg-gold px-8 py-2.5 font-serif text-bg hover:opacity-90"
         >
           {t("flow.next")}
         </button>
@@ -150,29 +158,39 @@ function StepSpread({
   const list = spreads.length ? spreads : SPREADS;
   return (
     <section className="space-y-5">
-      <h2 className="text-center font-serif text-2xl text-gold">
+      <h2 className="text-shimmer text-center font-serif text-2xl">
         {t("flow.chooseSpread")}
       </h2>
-      <div className="space-y-3">
+      <motion.div
+        className="space-y-3"
+        initial="hidden"
+        animate="show"
+        variants={{ hidden: {}, show: { transition: { staggerChildren: 0.07 } } }}
+      >
         {list.map((s) => (
-          <button
+          <motion.button
             key={s.id}
+            variants={fadeUp}
+            whileHover={{ y: -3 }}
+            whileTap={{ scale: 0.98 }}
             onClick={() => onPick(s.id)}
-            className="w-full rounded-xl border border-border bg-bg-elev p-4 text-left transition-colors hover:border-gold"
+            className="glow-gold w-full rounded-xl border border-border bg-bg-elev p-4 text-left transition-colors hover:border-gold"
           >
             <div className="flex items-center justify-between">
               <span className="font-serif text-lg text-fg">{s.name}</span>
-              <span className="text-xs text-fg-muted">{s.cardCount} 张</span>
+              <span className="rounded-full border border-gold/30 px-2 py-0.5 text-xs text-gold-soft">
+                {s.cardCount} 张
+              </span>
             </div>
             <p className="mt-1 text-xs leading-relaxed text-fg-muted">
               {s.howToRead}
             </p>
-          </button>
+          </motion.button>
         ))}
-      </div>
+      </motion.div>
       <button
         onClick={onBack}
-        className="mx-auto block text-xs text-fg-muted hover:text-fg"
+        className="press mx-auto block text-xs text-fg-muted hover:text-fg"
       >
         ← {t("flow.question")}
       </button>
@@ -198,7 +216,7 @@ function StepDraw({ spreadId }: { spreadId: string | null }) {
 
   return (
     <section className="flex flex-col items-center gap-8">
-      <h2 className="text-center font-serif text-2xl text-gold">{spread.name}</h2>
+      <h2 className="text-shimmer text-center font-serif text-2xl">{spread.name}</h2>
 
       <div className="flex flex-wrap items-center justify-center gap-3">
         {Array.from({ length: spread.cardCount }).map((_, i) => (
@@ -226,7 +244,7 @@ function StepDraw({ spreadId }: { spreadId: string | null }) {
       {!shuffled ? (
         <button
           onClick={() => setShuffled(true)}
-          className="rounded-full border border-gold/60 px-8 py-2.5 font-serif text-gold transition-colors hover:bg-gold/10"
+          className="press rounded-full border border-gold/60 px-8 py-2.5 font-serif text-gold transition-colors hover:bg-gold/10"
         >
           {t("flow.shuffle")}
         </button>
@@ -234,8 +252,10 @@ function StepDraw({ spreadId }: { spreadId: string | null }) {
         <motion.button
           initial={reduce ? false : { opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
+          whileHover={{ scale: 1.04 }}
+          whileTap={{ scale: 0.96 }}
           onClick={handleDraw}
-          className="rounded-full bg-gold px-10 py-3 font-serif text-lg text-bg transition-opacity hover:opacity-90"
+          className="glow-gold rounded-full bg-gold px-10 py-3 font-serif text-lg text-bg hover:opacity-90"
         >
           {t("flow.draw")}
         </motion.button>
@@ -243,3 +263,8 @@ function StepDraw({ spreadId }: { spreadId: string | null }) {
     </section>
   );
 }
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 16 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.35 } },
+};

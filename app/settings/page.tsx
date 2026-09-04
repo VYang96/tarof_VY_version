@@ -21,7 +21,7 @@ export default function SettingsPage() {
 
   return (
     <div className="space-y-6 py-4">
-      <h2 className="font-serif text-2xl text-gold">{t("nav.settings")}</h2>
+      <h2 className="text-shimmer font-serif text-2xl">{t("nav.settings")}</h2>
 
       <Row label={t("settings.language")}>
         <Segmented

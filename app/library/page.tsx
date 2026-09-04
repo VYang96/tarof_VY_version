@@ -31,7 +31,7 @@ export default function LibraryPage() {
 
   return (
     <div className="space-y-6 py-4">
-      <h2 className="font-serif text-2xl text-gold">{t("library.title")}</h2>
+      <h2 className="text-shimmer font-serif text-2xl">{t("library.title")}</h2>
       <input
         value={q}
         onChange={(e) => setQ(e.target.value)}

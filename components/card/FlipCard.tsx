@@ -35,7 +35,7 @@ export function FlipCard({
         onClick={interactive ? onReveal : undefined}
         disabled={!interactive}
         style={{ width: size, height, perspective: 1000 }}
-        className={`relative ${interactive ? "cursor-pointer" : "cursor-default"}`}
+        className={`relative rounded-xl ${interactive ? "glow-gold cursor-pointer" : "cursor-default"}`}
       >
         <motion.div
           className="relative h-full w-full"

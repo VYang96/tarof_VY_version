@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 import { useT } from "@/lib/i18n";
 import { useSettings } from "@/lib/store/settings";
 import { PWARegister } from "./PWARegister";
@@ -33,12 +34,15 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <DisclaimerGate />
       <header className="sticky top-0 z-20 border-b border-border/60 bg-bg/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-3xl items-center justify-between px-4 py-3">
-          <Link href="/" className="font-serif text-lg tracking-wide text-gold">
+          <Link
+            href="/"
+            className="text-shimmer font-serif text-lg tracking-wide"
+          >
             {t("app.name")}
           </Link>
           <button
             onClick={toggleLocale}
-            className="rounded-full border border-border px-3 py-1 text-xs text-fg-muted transition-colors hover:border-gold hover:text-gold"
+            className="press rounded-full border border-border px-3 py-1 text-xs text-fg-muted transition-colors hover:border-gold hover:text-gold"
             aria-label="toggle language"
           >
             {locale === "zh" ? "EN" : "中"}
@@ -56,13 +60,17 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`relative flex-1 whitespace-nowrap px-3 py-2.5 text-center text-sm transition-colors ${
+                  className={`relative flex-1 whitespace-nowrap px-3 py-2.5 text-center text-sm transition-colors duration-300 ${
                     active ? "text-gold" : "text-fg-muted hover:text-fg"
                   }`}
                 >
                   {t(item.key)}
                   {active && (
-                    <span className="absolute inset-x-3 -bottom-px h-0.5 rounded-full bg-gold" />
+                    <motion.span
+                      layoutId="nav-active"
+                      transition={{ type: "spring", stiffness: 400, damping: 32 }}
+                      className="absolute inset-x-3 -bottom-px h-0.5 rounded-full bg-gold"
+                    />
                   )}
                 </Link>
               );
