@@ -1,0 +1,20 @@
+{
+  "name": "月语塔罗 · Moon-speak Tarot",
+  "short_name": "月语塔罗",
+  "description": "固定牌义为核心的塔罗占卜，离线可用的纯前端 PWA",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#14121f",
+  "theme_color": "#14121f",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+{
+  "style": "cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail",
+  "negative": "text, words, letters, numbers, watermark, signature, photorealistic, realistic human proportions, extra limbs, deformed, blurry, low quality, multiple cards, grid, collage",
+  "count": 78,
+  "prompts": [
+    {
+      "id": "major-00",
+      "name": "愚人",
+      "en": "The Fool",
+      "file": "major-00.png",
+      "subject": "a cheerful chibi youth stepping off a cliff edge with a small knapsack on a stick, a little white dog at the feet, holding a white rose, sunny sky",
+      "prompt": "a cheerful chibi youth stepping off a cliff edge with a small knapsack on a stick, a little white dog at the feet, holding a white rose, sunny sky, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-01",
+      "name": "魔术师",
+      "en": "The Magician",
+      "file": "major-01.png",
+      "subject": "a chibi mage pointing one hand to the sky and one to the ground, a wand, cup, sword and pentacle floating on a table, a glowing infinity symbol above the head",
+      "prompt": "a chibi mage pointing one hand to the sky and one to the ground, a wand, cup, sword and pentacle floating on a table, a glowing infinity symbol above the head, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-02",
+      "name": "女祭司",
+      "en": "The High Priestess",
+      "file": "major-02.png",
+      "subject": "a serene chibi priestess seated between one black and one white pillar, a crescent moon at her feet, a starry veil of pomegranates behind",
+      "prompt": "a serene chibi priestess seated between one black and one white pillar, a crescent moon at her feet, a starry veil of pomegranates behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-03",
+      "name": "皇后",
+      "en": "The Empress",
+      "file": "major-03.png",
+      "subject": "a gentle chibi empress with a flower crown on a cushioned throne in a lush green garden, golden wheat field, a heart Venus symbol",
+      "prompt": "a gentle chibi empress with a flower crown on a cushioned throne in a lush green garden, golden wheat field, a heart Venus symbol, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-04",
+      "name": "皇帝",
+      "en": "The Emperor",
+      "file": "major-04.png",
+      "subject": "a stern little chibi emperor on a grey stone throne carved with ram heads, holding an ankh scepter, red mountains behind",
+      "prompt": "a stern little chibi emperor on a grey stone throne carved with ram heads, holding an ankh scepter, red mountains behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-05",
+      "name": "教皇",
+      "en": "The Hierophant",
+      "file": "major-05.png",
+      "subject": "a kindly chibi high priest in robes raising a hand in blessing, two tiny acolytes kneeling below, crossed golden keys",
+      "prompt": "a kindly chibi high priest in robes raising a hand in blessing, two tiny acolytes kneeling below, crossed golden keys, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-06",
+      "name": "恋人",
+      "en": "The Lovers",
+      "file": "major-06.png",
+      "subject": "two cute chibi lovers standing under a big benevolent angel with spread wings, a bright sun above, a tree behind each of them",
+      "prompt": "two cute chibi lovers standing under a big benevolent angel with spread wings, a bright sun above, a tree behind each of them, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-07",
+      "name": "战车",
+      "en": "The Chariot",
+      "file": "major-07.png",
+      "subject": "a determined chibi charioteer standing in an ornate chariot pulled by one black and one white sphinx, a starry canopy above",
+      "prompt": "a determined chibi charioteer standing in an ornate chariot pulled by one black and one white sphinx, a starry canopy above, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-08",
+      "name": "力量",
+      "en": "Strength",
+      "file": "major-08.png",
+      "subject": "a gentle chibi girl softly closing the mouth of a big friendly lion, a glowing infinity symbol above her head, calm meadow",
+      "prompt": "a gentle chibi girl softly closing the mouth of a big friendly lion, a glowing infinity symbol above her head, calm meadow, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-09",
+      "name": "隐士",
+      "en": "The Hermit",
+      "file": "major-09.png",
+      "subject": "a small chibi hermit in a grey hooded cloak on a snowy mountaintop, holding up a glowing lantern with a star inside, a wooden staff",
+      "prompt": "a small chibi hermit in a grey hooded cloak on a snowy mountaintop, holding up a glowing lantern with a star inside, a wooden staff, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-10",
+      "name": "命运之轮",
+      "en": "Wheel of Fortune",
+      "file": "major-10.png",
+      "subject": "a big ornate golden wheel of fortune with a chibi sphinx resting on top, little mystical creatures around it, clouds in the corners",
+      "prompt": "a big ornate golden wheel of fortune with a chibi sphinx resting on top, little mystical creatures around it, clouds in the corners, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-11",
+      "name": "正义",
+      "en": "Justice",
+      "file": "major-11.png",
+      "subject": "a calm chibi figure on a throne holding an upright sword in one hand and balanced golden scales in the other, between two pillars",
+      "prompt": "a calm chibi figure on a throne holding an upright sword in one hand and balanced golden scales in the other, between two pillars, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-12",
+      "name": "倒吊人",
+      "en": "The Hanged Man",
+      "file": "major-12.png",
+      "subject": "a peaceful chibi figure hanging upside-down by one foot from a wooden T-shaped tree, a gentle smile and a golden halo around the head",
+      "prompt": "a peaceful chibi figure hanging upside-down by one foot from a wooden T-shaped tree, a gentle smile and a golden halo around the head, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-13",
+      "name": "死神",
+      "en": "Death",
+      "file": "major-13.png",
+      "subject": "a cute non-scary chibi skeleton knight in armor riding a white pony, holding a black flag with a white rose, a soft sunrise behind",
+      "prompt": "a cute non-scary chibi skeleton knight in armor riding a white pony, holding a black flag with a white rose, a soft sunrise behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-14",
+      "name": "节制",
+      "en": "Temperance",
+      "file": "major-14.png",
+      "subject": "a chibi angel gently pouring shimmering water between two golden cups, one foot on land and one in a pool, a path leading to mountains",
+      "prompt": "a chibi angel gently pouring shimmering water between two golden cups, one foot on land and one in a pool, a path leading to mountains, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-15",
+      "name": "恶魔",
+      "en": "The Devil",
+      "file": "major-15.png",
+      "subject": "a small comical chibi devil perched on a block above two cute little imps loosely chained, holding a torch, playful not frightening",
+      "prompt": "a small comical chibi devil perched on a block above two cute little imps loosely chained, holding a torch, playful not frightening, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-16",
+      "name": "高塔",
+      "en": "The Tower",
+      "file": "major-16.png",
+      "subject": "a tall stone tower struck by a lightning bolt, its crown blasted off, two tiny chibi figures tumbling out, small flames, dark stormy sky",
+      "prompt": "a tall stone tower struck by a lightning bolt, its crown blasted off, two tiny chibi figures tumbling out, small flames, dark stormy sky, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-17",
+      "name": "星星",
+      "en": "The Star",
+      "file": "major-17.png",
+      "subject": "a hopeful chibi girl kneeling by a calm pool, pouring water from two jugs, one big bright star and seven small stars in the night sky",
+      "prompt": "a hopeful chibi girl kneeling by a calm pool, pouring water from two jugs, one big bright star and seven small stars in the night sky, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-18",
+      "name": "月亮",
+      "en": "The Moon",
+      "file": "major-18.png",
+      "subject": "a big gentle crescent-moon face in the night sky, a chibi dog and wolf howling upward, a little crayfish in a pool, two towers in the distance",
+      "prompt": "a big gentle crescent-moon face in the night sky, a chibi dog and wolf howling upward, a little crayfish in a pool, two towers in the distance, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-19",
+      "name": "太阳",
+      "en": "The Sun",
+      "file": "major-19.png",
+      "subject": "a joyful chibi child riding a white pony under a big smiling golden sun, tall sunflowers, a red banner waving",
+      "prompt": "a joyful chibi child riding a white pony under a big smiling golden sun, tall sunflowers, a red banner waving, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-20",
+      "name": "审判",
+      "en": "Judgement",
+      "file": "major-20.png",
+      "subject": "a chibi angel blowing a golden trumpet in the clouds, little chibi figures rising with arms open from below, mountains behind",
+      "prompt": "a chibi angel blowing a golden trumpet in the clouds, little chibi figures rising with arms open from below, mountains behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "major-21",
+      "name": "世界",
+      "en": "The World",
+      "file": "major-21.png",
+      "subject": "a happy dancing chibi figure inside a green laurel wreath, holding two wands, a tiny angel, eagle, bull and lion in the four corners",
+      "prompt": "a happy dancing chibi figure inside a green laurel wreath, holding two wands, a tiny angel, eagle, bull and lion in the four corners, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-01",
+      "name": "权杖王牌",
+      "en": "Ace of Wands",
+      "file": "wands-01.png",
+      "subject": "a chibi hand emerging from a cloud grasping a sprouting wooden wand with fresh green leaves, a distant castle on a hill",
+      "prompt": "a chibi hand emerging from a cloud grasping a sprouting wooden wand with fresh green leaves, a distant castle on a hill, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-02",
+      "name": "权杖二",
+      "en": "Two of Wands",
+      "file": "wands-02.png",
+      "subject": "a chibi figure standing on a castle terrace holding a small globe, gazing into the distance, two wands beside",
+      "prompt": "a chibi figure standing on a castle terrace holding a small globe, gazing into the distance, two wands beside, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-03",
+      "name": "权杖三",
+      "en": "Three of Wands",
+      "file": "wands-03.png",
+      "subject": "a chibi figure standing on a cliff watching little ships sail across the sea, three wands planted in the ground",
+      "prompt": "a chibi figure standing on a cliff watching little ships sail across the sea, three wands planted in the ground, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-04",
+      "name": "权杖四",
+      "en": "Four of Wands",
+      "file": "wands-04.png",
+      "subject": "four upright wands forming a flower-garland gateway, two tiny chibi figures celebrating with bouquets, a castle behind",
+      "prompt": "four upright wands forming a flower-garland gateway, two tiny chibi figures celebrating with bouquets, a castle behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-05",
+      "name": "权杖五",
+      "en": "Five of Wands",
+      "file": "wands-05.png",
+      "subject": "five cute chibi youths playfully clashing wooden wands together in a friendly mock battle",
+      "prompt": "five cute chibi youths playfully clashing wooden wands together in a friendly mock battle, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-06",
+      "name": "权杖六",
+      "en": "Six of Wands",
+      "file": "wands-06.png",
+      "subject": "a proud chibi rider on a horse wearing a laurel wreath, holding a wand topped with a wreath, a little cheering crowd",
+      "prompt": "a proud chibi rider on a horse wearing a laurel wreath, holding a wand topped with a wreath, a little cheering crowd, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-07",
+      "name": "权杖七",
+      "en": "Seven of Wands",
+      "file": "wands-07.png",
+      "subject": "a brave chibi figure on higher ground defending with a wand against six wands rising from below",
+      "prompt": "a brave chibi figure on higher ground defending with a wand against six wands rising from below, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-08",
+      "name": "权杖八",
+      "en": "Eight of Wands",
+      "file": "wands-08.png",
+      "subject": "eight wands flying like arrows through a clear sky over rolling green hills and a river",
+      "prompt": "eight wands flying like arrows through a clear sky over rolling green hills and a river, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-09",
+      "name": "权杖九",
+      "en": "Nine of Wands",
+      "file": "wands-09.png",
+      "subject": "a weary but ready chibi guard leaning on a wand with a bandaged head, eight wands standing like a fence behind",
+      "prompt": "a weary but ready chibi guard leaning on a wand with a bandaged head, eight wands standing like a fence behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-10",
+      "name": "权杖十",
+      "en": "Ten of Wands",
+      "file": "wands-10.png",
+      "subject": "a chibi figure bundling and carrying ten heavy wands with both arms toward a distant little house",
+      "prompt": "a chibi figure bundling and carrying ten heavy wands with both arms toward a distant little house, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-page",
+      "name": "权杖侍从",
+      "en": "Page of Wands",
+      "file": "wands-page.png",
+      "subject": "a curious chibi youth in a desert admiring a single tall wand, salamander pattern on the tunic, small pyramids behind",
+      "prompt": "a curious chibi youth in a desert admiring a single tall wand, salamander pattern on the tunic, small pyramids behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-knight",
+      "name": "权杖骑士",
+      "en": "Knight of Wands",
+      "file": "wands-knight.png",
+      "subject": "an eager chibi knight in orange armor on a rearing horse holding a wand, desert dunes and pyramids behind",
+      "prompt": "an eager chibi knight in orange armor on a rearing horse holding a wand, desert dunes and pyramids behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-queen",
+      "name": "权杖皇后",
+      "en": "Queen of Wands",
+      "file": "wands-queen.png",
+      "subject": "a warm chibi queen on a throne decorated with sunflowers, a little black cat at her feet, holding a wand and a sunflower",
+      "prompt": "a warm chibi queen on a throne decorated with sunflowers, a little black cat at her feet, holding a wand and a sunflower, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "wands-king",
+      "name": "权杖国王",
+      "en": "King of Wands",
+      "file": "wands-king.png",
+      "subject": "a confident chibi king on a throne carved with lions and salamanders, holding a flowering wand, a small live salamander nearby",
+      "prompt": "a confident chibi king on a throne carved with lions and salamanders, holding a flowering wand, a small live salamander nearby, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-01",
+      "name": "圣杯王牌",
+      "en": "Ace of Cups",
+      "file": "cups-01.png",
+      "subject": "a chibi hand from a cloud holding an overflowing golden cup, a little white dove dipping toward it, five streams of water",
+      "prompt": "a chibi hand from a cloud holding an overflowing golden cup, a little white dove dipping toward it, five streams of water, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-02",
+      "name": "圣杯二",
+      "en": "Two of Cups",
+      "file": "cups-02.png",
+      "subject": "two shy chibi lovers gently exchanging golden cups, a winged caduceus with a small lion head floating above",
+      "prompt": "two shy chibi lovers gently exchanging golden cups, a winged caduceus with a small lion head floating above, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-03",
+      "name": "圣杯三",
+      "en": "Three of Cups",
+      "file": "cups-03.png",
+      "subject": "three cheerful chibi friends dancing in a circle raising their cups in a toast, fruits and grapevines around",
+      "prompt": "three cheerful chibi friends dancing in a circle raising their cups in a toast, fruits and grapevines around, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-04",
+      "name": "圣杯四",
+      "en": "Four of Cups",
+      "file": "cups-04.png",
+      "subject": "a bored chibi youth sitting cross-armed under a tree ignoring a cup offered by a cloud-hand, three cups on the grass",
+      "prompt": "a bored chibi youth sitting cross-armed under a tree ignoring a cup offered by a cloud-hand, three cups on the grass, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-05",
+      "name": "圣杯五",
+      "en": "Five of Cups",
+      "file": "cups-05.png",
+      "subject": "a cloaked chibi figure looking down sadly at three spilled cups, two upright cups still standing behind, a bridge and castle",
+      "prompt": "a cloaked chibi figure looking down sadly at three spilled cups, two upright cups still standing behind, a bridge and castle, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-06",
+      "name": "圣杯六",
+      "en": "Six of Cups",
+      "file": "cups-06.png",
+      "subject": "a sweet chibi child handing a cup full of white flowers to a smaller child in a sunny village courtyard",
+      "prompt": "a sweet chibi child handing a cup full of white flowers to a smaller child in a sunny village courtyard, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-07",
+      "name": "圣杯七",
+      "en": "Seven of Cups",
+      "file": "cups-07.png",
+      "subject": "a chibi figure gazing up at seven glowing cups floating in clouds, each holding a wonder — a castle, jewels, a tiny dragon, a wreath",
+      "prompt": "a chibi figure gazing up at seven glowing cups floating in clouds, each holding a wonder — a castle, jewels, a tiny dragon, a wreath, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-08",
+      "name": "圣杯八",
+      "en": "Eight of Cups",
+      "file": "cups-08.png",
+      "subject": "a lonely chibi figure with a staff walking away toward mountains at night, eight cups left behind, a crescent moon",
+      "prompt": "a lonely chibi figure with a staff walking away toward mountains at night, eight cups left behind, a crescent moon, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-09",
+      "name": "圣杯九",
+      "en": "Nine of Cups",
+      "file": "cups-09.png",
+      "subject": "a very satisfied chibi figure sitting with crossed arms and a big grin, nine golden cups arced on a curved shelf behind",
+      "prompt": "a very satisfied chibi figure sitting with crossed arms and a big grin, nine golden cups arced on a curved shelf behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-10",
+      "name": "圣杯十",
+      "en": "Ten of Cups",
+      "file": "cups-10.png",
+      "subject": "a happy chibi family with two dancing children under a rainbow arc of ten cups, a cozy little house and river",
+      "prompt": "a happy chibi family with two dancing children under a rainbow arc of ten cups, a cozy little house and river, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-page",
+      "name": "圣杯侍从",
+      "en": "Page of Cups",
+      "file": "cups-page.png",
+      "subject": "a playful chibi youth in blue holding up a cup with a tiny fish popping its head out, a wavy sea behind",
+      "prompt": "a playful chibi youth in blue holding up a cup with a tiny fish popping its head out, a wavy sea behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-knight",
+      "name": "圣杯骑士",
+      "en": "Knight of Cups",
+      "file": "cups-knight.png",
+      "subject": "a gentle chibi knight on a calm white horse offering a golden cup forward, a winding river and cliffs",
+      "prompt": "a gentle chibi knight on a calm white horse offering a golden cup forward, a winding river and cliffs, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-queen",
+      "name": "圣杯皇后",
+      "en": "Queen of Cups",
+      "file": "cups-queen.png",
+      "subject": "a dreamy chibi queen on a seashell throne by the sea, cradling a closed ornate golden cup",
+      "prompt": "a dreamy chibi queen on a seashell throne by the sea, cradling a closed ornate golden cup, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "cups-king",
+      "name": "圣杯国王",
+      "en": "King of Cups",
+      "file": "cups-king.png",
+      "subject": "a composed chibi king on a throne floating on a choppy blue sea, holding a cup steadily, a little fish and ship nearby",
+      "prompt": "a composed chibi king on a throne floating on a choppy blue sea, holding a cup steadily, a little fish and ship nearby, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-01",
+      "name": "宝剑王牌",
+      "en": "Ace of Swords",
+      "file": "swords-01.png",
+      "subject": "a chibi hand from a cloud grasping an upright sword crowned with a golden crown and laurel, jagged mountains below",
+      "prompt": "a chibi hand from a cloud grasping an upright sword crowned with a golden crown and laurel, jagged mountains below, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-02",
+      "name": "宝剑二",
+      "en": "Two of Swords",
+      "file": "swords-02.png",
+      "subject": "a blindfolded chibi figure seated holding two crossed swords over the chest, a calm sea and crescent moon behind",
+      "prompt": "a blindfolded chibi figure seated holding two crossed swords over the chest, a calm sea and crescent moon behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-03",
+      "name": "宝剑三",
+      "en": "Three of Swords",
+      "file": "swords-03.png",
+      "subject": "a big cute red heart pierced by three crossing swords, grey rain clouds and gentle rain",
+      "prompt": "a big cute red heart pierced by three crossing swords, grey rain clouds and gentle rain, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-04",
+      "name": "宝剑四",
+      "en": "Four of Swords",
+      "file": "swords-04.png",
+      "subject": "a chibi knight lying peacefully in rest atop a tomb, hands together in prayer, three swords on the wall and one below",
+      "prompt": "a chibi knight lying peacefully in rest atop a tomb, hands together in prayer, three swords on the wall and one below, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-05",
+      "name": "宝剑五",
+      "en": "Five of Swords",
+      "file": "swords-05.png",
+      "subject": "a smug little chibi figure gathering three swords with a grin, two dejected tiny figures walking away, windy cloudy sky",
+      "prompt": "a smug little chibi figure gathering three swords with a grin, two dejected tiny figures walking away, windy cloudy sky, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-06",
+      "name": "宝剑六",
+      "en": "Six of Swords",
+      "file": "swords-06.png",
+      "subject": "a chibi ferryman poling a small boat carrying a cloaked figure and a child, six swords standing in the boat, calm water ahead",
+      "prompt": "a chibi ferryman poling a small boat carrying a cloaked figure and a child, six swords standing in the boat, calm water ahead, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-07",
+      "name": "宝剑七",
+      "en": "Seven of Swords",
+      "file": "swords-07.png",
+      "subject": "a sneaky chibi figure tiptoeing away carrying five swords and glancing back, two swords left stuck in the ground, tents behind",
+      "prompt": "a sneaky chibi figure tiptoeing away carrying five swords and glancing back, two swords left stuck in the ground, tents behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-08",
+      "name": "宝剑八",
+      "en": "Eight of Swords",
+      "file": "swords-08.png",
+      "subject": "a lightly bound and blindfolded chibi figure surrounded by eight swords stuck upright in the ground, a castle on a cliff behind",
+      "prompt": "a lightly bound and blindfolded chibi figure surrounded by eight swords stuck upright in the ground, a castle on a cliff behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-09",
+      "name": "宝剑九",
+      "en": "Nine of Swords",
+      "file": "swords-09.png",
+      "subject": "a chibi figure sitting up in bed at night covering the face in worry, nine swords mounted on the dark wall",
+      "prompt": "a chibi figure sitting up in bed at night covering the face in worry, nine swords mounted on the dark wall, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-10",
+      "name": "宝剑十",
+      "en": "Ten of Swords",
+      "file": "swords-10.png",
+      "subject": "a cartoonish chibi figure lying face-down with ten swords in the back (gentle and non-gory), a bright dawn breaking on the horizon",
+      "prompt": "a cartoonish chibi figure lying face-down with ten swords in the back (gentle and non-gory), a bright dawn breaking on the horizon, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-page",
+      "name": "宝剑侍从",
+      "en": "Page of Swords",
+      "file": "swords-page.png",
+      "subject": "an alert chibi youth brandishing a sword with hair blowing, standing on a windy hilltop with birds and churning clouds",
+      "prompt": "an alert chibi youth brandishing a sword with hair blowing, standing on a windy hilltop with birds and churning clouds, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-knight",
+      "name": "宝剑骑士",
+      "en": "Knight of Swords",
+      "file": "swords-knight.png",
+      "subject": "a fierce chibi knight charging on a galloping horse with sword raised high, strong wind and stormy clouds",
+      "prompt": "a fierce chibi knight charging on a galloping horse with sword raised high, strong wind and stormy clouds, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-queen",
+      "name": "宝剑皇后",
+      "en": "Queen of Swords",
+      "file": "swords-queen.png",
+      "subject": "a stern but fair chibi queen on a throne holding an upright sword, one hand extended, clouds and a single bird",
+      "prompt": "a stern but fair chibi queen on a throne holding an upright sword, one hand extended, clouds and a single bird, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "swords-king",
+      "name": "宝剑国王",
+      "en": "King of Swords",
+      "file": "swords-king.png",
+      "subject": "an authoritative chibi king on a throne holding an upright sword, butterflies and birds carved on the throne, clear blue sky",
+      "prompt": "an authoritative chibi king on a throne holding an upright sword, butterflies and birds carved on the throne, clear blue sky, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-01",
+      "name": "星币王牌",
+      "en": "Ace of Pentacles",
+      "file": "pentacles-01.png",
+      "subject": "a chibi hand from a cloud holding a large golden pentacle coin, a flowering garden archway and green path below",
+      "prompt": "a chibi hand from a cloud holding a large golden pentacle coin, a flowering garden archway and green path below, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-02",
+      "name": "星币二",
+      "en": "Two of Pentacles",
+      "file": "pentacles-02.png",
+      "subject": "a cheerful chibi juggler balancing two golden pentacles linked by an infinity ribbon, two little ships on rolling waves",
+      "prompt": "a cheerful chibi juggler balancing two golden pentacles linked by an infinity ribbon, two little ships on rolling waves, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-03",
+      "name": "星币三",
+      "en": "Three of Pentacles",
+      "file": "pentacles-03.png",
+      "subject": "a little chibi mason on scaffolding carving pentacles in a cathedral, two robed advisors looking on, three pentacles",
+      "prompt": "a little chibi mason on scaffolding carving pentacles in a cathedral, two robed advisors looking on, three pentacles, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-04",
+      "name": "星币四",
+      "en": "Four of Pentacles",
+      "file": "pentacles-04.png",
+      "subject": "a chibi figure hugging one pentacle to the chest, one balanced on the head, two under the feet, a city skyline behind (a cute miser)",
+      "prompt": "a chibi figure hugging one pentacle to the chest, one balanced on the head, two under the feet, a city skyline behind (a cute miser), cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-05",
+      "name": "星币五",
+      "en": "Five of Pentacles",
+      "file": "pentacles-05.png",
+      "subject": "two ragged little chibi figures trudging through snow past a glowing stained-glass church window with five pentacles",
+      "prompt": "two ragged little chibi figures trudging through snow past a glowing stained-glass church window with five pentacles, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-06",
+      "name": "星币六",
+      "en": "Six of Pentacles",
+      "file": "pentacles-06.png",
+      "subject": "a kind chibi merchant holding golden scales, dropping coins to two small kneeling figures, six pentacles floating above",
+      "prompt": "a kind chibi merchant holding golden scales, dropping coins to two small kneeling figures, six pentacles floating above, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-07",
+      "name": "星币七",
+      "en": "Seven of Pentacles",
+      "file": "pentacles-07.png",
+      "subject": "a chibi farmer leaning on a hoe gazing thoughtfully at a leafy bush growing seven golden pentacles",
+      "prompt": "a chibi farmer leaning on a hoe gazing thoughtfully at a leafy bush growing seven golden pentacles, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-08",
+      "name": "星币八",
+      "en": "Eight of Pentacles",
+      "file": "pentacles-08.png",
+      "subject": "a diligent chibi craftsman at a workbench carving pentacles, finished ones hung on the wall, eight pentacles total",
+      "prompt": "a diligent chibi craftsman at a workbench carving pentacles, finished ones hung on the wall, eight pentacles total, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-09",
+      "name": "星币九",
+      "en": "Nine of Pentacles",
+      "file": "pentacles-09.png",
+      "subject": "an elegant chibi lady in a lush vineyard garden with a little falcon perched on her gloved hand, nine pentacles among the vines",
+      "prompt": "an elegant chibi lady in a lush vineyard garden with a little falcon perched on her gloved hand, nine pentacles among the vines, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-10",
+      "name": "星币十",
+      "en": "Ten of Pentacles",
+      "file": "pentacles-10.png",
+      "subject": "a cozy chibi elder with family and two little dogs under an archway of ten pentacles, a castle courtyard and home",
+      "prompt": "a cozy chibi elder with family and two little dogs under an archway of ten pentacles, a castle courtyard and home, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-page",
+      "name": "星币侍从",
+      "en": "Page of Pentacles",
+      "file": "pentacles-page.png",
+      "subject": "a wonder-struck chibi youth in a green flowering field holding up a single golden pentacle with both hands",
+      "prompt": "a wonder-struck chibi youth in a green flowering field holding up a single golden pentacle with both hands, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-knight",
+      "name": "星币骑士",
+      "en": "Knight of Pentacles",
+      "file": "pentacles-knight.png",
+      "subject": "a patient chibi knight on a sturdy still workhorse holding a pentacle, freshly plowed fields behind",
+      "prompt": "a patient chibi knight on a sturdy still workhorse holding a pentacle, freshly plowed fields behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-queen",
+      "name": "星币皇后",
+      "en": "Queen of Pentacles",
+      "file": "pentacles-queen.png",
+      "subject": "a nurturing chibi queen on a throne in a rose garden cradling a golden pentacle, a little rabbit hopping nearby",
+      "prompt": "a nurturing chibi queen on a throne in a rose garden cradling a golden pentacle, a little rabbit hopping nearby, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    },
+    {
+      "id": "pentacles-king",
+      "name": "星币国王",
+      "en": "King of Pentacles",
+      "file": "pentacles-king.png",
+      "subject": "a prosperous chibi king on a throne wrapped in grapevines with a small bull, holding a pentacle, a castle behind",
+      "prompt": "a prosperous chibi king on a throne wrapped in grapevines with a small bull, holding a pentacle, a castle behind, cute chibi Q-version style, kawaii, big expressive eyes, soft cel shading, rounded shapes, clean bold outlines, tarot card illustration, single centered subject, portrait vertical 5:8 composition, deep indigo-purple night-sky background with subtle golden stars, gold (#d6ac57) decorative accents, mystical dreamy cohesive tarot deck art, soft glow, no text, no lettering, no border frame, high detail"
+    }
+  ]
+}
