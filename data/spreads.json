@@ -44,5 +44,86 @@
       }
     ],
     "howToRead": "从左到右读出一条时间线：过去的根源如何塑造了现在的处境，现在的选择又将把你带向怎样的未来。三张牌互为因果，连起来看比单独看更完整。"
+  },
+  {
+    "id": "relationship-four",
+    "name": "恋人四张",
+    "cardCount": 4,
+    "bestFor": ["love"],
+    "positions": [
+      {
+        "index": 0,
+        "order": 1,
+        "label": "你",
+        "meaning": "你在这段关系里的状态与付出",
+        "layout": { "x": 0.3, "y": 0.35 }
+      },
+      {
+        "index": 1,
+        "order": 2,
+        "label": "对方",
+        "meaning": "对方的状态与付出",
+        "layout": { "x": 0.7, "y": 0.35 }
+      },
+      {
+        "index": 2,
+        "order": 3,
+        "label": "关系现状",
+        "meaning": "你们之间当前的连接",
+        "layout": { "x": 0.5, "y": 0.6 }
+      },
+      {
+        "index": 3,
+        "order": 4,
+        "label": "走向",
+        "meaning": "关系可能的发展",
+        "layout": { "x": 0.5, "y": 0.85 }
+      }
+    ],
+    "howToRead": "先看你与对方各自的状态与付出，再看两股能量如何塑造了你们当前的连接，最后一张指向关系可能的走向。它照见的是关系里的互动，而非替谁下判断。"
+  },
+  {
+    "id": "decision-five",
+    "name": "抉择五张",
+    "cardCount": 5,
+    "bestFor": ["general", "career", "wealth", "love"],
+    "positions": [
+      {
+        "index": 0,
+        "order": 1,
+        "label": "现状",
+        "meaning": "你当前面临的处境",
+        "layout": { "x": 0.5, "y": 0.25 }
+      },
+      {
+        "index": 1,
+        "order": 2,
+        "label": "选择 A",
+        "meaning": "选项 A 的能量",
+        "layout": { "x": 0.25, "y": 0.5 }
+      },
+      {
+        "index": 2,
+        "order": 3,
+        "label": "A 的走向",
+        "meaning": "选择 A 可能的结果",
+        "layout": { "x": 0.25, "y": 0.78 }
+      },
+      {
+        "index": 3,
+        "order": 4,
+        "label": "选择 B",
+        "meaning": "选项 B 的能量",
+        "layout": { "x": 0.75, "y": 0.5 }
+      },
+      {
+        "index": 4,
+        "order": 5,
+        "label": "B 的走向",
+        "meaning": "选择 B 可能的结果",
+        "layout": { "x": 0.75, "y": 0.78 }
+      }
+    ],
+    "howToRead": "顶部是你此刻的处境；左右两列分别是两个选项各自的能量与走向。对照两条路的画面，帮你看清心里的倾向——但最终选择永远在你自己手里。"
   }
 ]

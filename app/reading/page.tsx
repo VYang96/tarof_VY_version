@@ -6,6 +6,7 @@ import { useSettings } from "@/lib/store/settings";
 import { useT } from "@/lib/i18n";
 import { CATEGORIES, SPREADS, getSpread } from "@/lib/data";
 import { TarotCard } from "@/components/card/TarotCard";
+import { checkSafety } from "@/lib/safety";
 import { useState } from "react";
 import type { Category } from "@/types/tarot";
 
@@ -68,6 +69,43 @@ function StepCategory({
 function StepQuestion() {
   const t = useT();
   const { question, setQuestion, goTo } = useReading();
+  const [safetyBlock, setSafetyBlock] = useState(false);
+
+  const handleNext = () => {
+    if (checkSafety(question) === "crisis") {
+      setSafetyBlock(true);
+      return;
+    }
+    goTo("spread");
+  };
+
+  if (safetyBlock) {
+    return (
+      <section className="space-y-5 rounded-2xl border border-danger/40 bg-danger/5 p-6 text-center">
+        <div className="text-3xl">🕊️</div>
+        <h2 className="font-serif text-xl text-fg">{t("safety.title")}</h2>
+        <p className="text-sm leading-relaxed text-fg-muted">{t("safety.body")}</p>
+        <p className="text-xs leading-relaxed text-fg-muted/80">
+          {t("safety.resources")}
+        </p>
+        <div className="flex justify-center gap-3">
+          <button
+            onClick={() => setSafetyBlock(false)}
+            className="rounded-full bg-gold px-6 py-2.5 font-serif text-bg transition-opacity hover:opacity-90"
+          >
+            {t("safety.back")}
+          </button>
+          <button
+            onClick={() => goTo("spread")}
+            className="rounded-full border border-border px-6 py-2.5 text-sm text-fg-muted hover:text-fg"
+          >
+            {t("safety.continue")}
+          </button>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section className="space-y-5">
       <h2 className="text-center font-serif text-2xl text-gold">
@@ -85,7 +123,7 @@ function StepQuestion() {
       />
       <div className="flex justify-center gap-3">
         <button
-          onClick={() => goTo("spread")}
+          onClick={handleNext}
           className="rounded-full bg-gold px-8 py-2.5 font-serif text-bg transition-opacity hover:opacity-90"
         >
           {t("flow.next")}

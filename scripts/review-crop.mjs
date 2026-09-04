@@ -1,6 +1,6 @@
 // 生成检查图：把 public/cards/ 里已填的牌面按 CARDS 顺序排出、标注牌 id+名，便于核对裁切。
 import sharp from "sharp";
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 

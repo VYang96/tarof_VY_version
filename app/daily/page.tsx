@@ -1,40 +1,69 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { CARDS, getMeaning } from "@/lib/data";
+import { CARDS, getCard, getMeaning } from "@/lib/data";
 import { FlipCard } from "@/components/card/FlipCard";
+import { useDaily, dateKey } from "@/lib/store/daily";
+import { useSettings } from "@/lib/store/settings";
 import { useT } from "@/lib/i18n";
 
-/** 用日期做确定性种子：同一天同一用户结果一致（PRD §3.6） */
-function dailyIndex(dateKey: string, mod: number): number {
+/** 确定性哈希：同一 (种子, 日期) 结果一致 */
+function hash(str: string): number {
   let h = 0;
-  for (let i = 0; i < dateKey.length; i++) {
-    h = (h * 31 + dateKey.charCodeAt(i)) >>> 0;
-  }
-  return h % mod;
+  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+  return h;
 }
 
 export default function DailyPage() {
   const t = useT();
-  const [revealed, setRevealed] = useState(false);
+  const locale = useSettings((s) => s.locale);
+  const { seed, record, streak, ensureSeed, lockToday } = useDaily();
 
-  const { card, reversed, dateLabel } = useMemo(() => {
-    const now = new Date();
-    const key = `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}`;
-    const idx = dailyIndex(key, CARDS.length);
-    const rev = dailyIndex(key + "r", 2) === 1;
+  useEffect(() => {
+    ensureSeed();
+  }, [ensureSeed]);
+
+  const today = dateKey();
+  const alreadyToday = record?.date === today;
+
+  const { card, reversed } = useMemo(() => {
+    if (alreadyToday && record) {
+      return {
+        card: getCard(record.cardId) ?? CARDS[0],
+        reversed: record.reversed,
+      };
+    }
+    const s = seed || "seedless";
     return {
-      card: CARDS[idx],
-      reversed: rev,
-      dateLabel: key,
+      card: CARDS[hash(s + today) % CARDS.length],
+      reversed: hash(s + today + "r") % 2 === 1,
     };
-  }, []);
+  }, [alreadyToday, record, seed, today]);
+
+  // 当天已抽过则默认已翻开；否则等用户点击
+  const [justRevealed, setJustRevealed] = useState(false);
+  const revealed = justRevealed || alreadyToday;
+
+  const onReveal = () => {
+    setJustRevealed(true);
+    lockToday(card.id, reversed);
+  };
+
+  const streakText =
+    streak > 0
+      ? locale === "zh"
+        ? `连续签到 ${streak} 天`
+        : `${streak}-day streak`
+      : "";
 
   return (
     <div className="flex flex-col items-center gap-6 py-6 text-center">
       <div>
         <h2 className="font-serif text-2xl text-gold">{t("home.daily")}</h2>
-        <p className="mt-1 text-xs text-fg-muted">{dateLabel}</p>
+        <p className="mt-1 text-xs text-fg-muted">{today}</p>
+        {streakText && (
+          <p className="mt-1 text-xs text-gold-soft">✦ {streakText}</p>
+        )}
       </div>
 
       <FlipCard
@@ -42,10 +71,10 @@ export default function DailyPage() {
         reversed={reversed}
         revealed={revealed}
         size={150}
-        onReveal={() => setRevealed(true)}
+        onReveal={onReveal}
       />
 
-      {revealed && (
+      {revealed ? (
         <motion.article
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
@@ -62,10 +91,10 @@ export default function DailyPage() {
             {getMeaning(card, "general", reversed)}
           </p>
         </motion.article>
-      )}
-
-      {!revealed && (
-        <p className="text-xs text-fg-muted">轻触卡牌，揭开今日指引</p>
+      ) : (
+        <p className="text-xs text-fg-muted">
+          {locale === "zh" ? "轻触卡牌，揭开今日指引" : "Tap the card to reveal today's guidance"}
+        </p>
       )}
     </div>
   );

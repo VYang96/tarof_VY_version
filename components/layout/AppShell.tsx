@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { useT } from "@/lib/i18n";
 import { useSettings } from "@/lib/store/settings";
 import { PWARegister } from "./PWARegister";
+import { DisclaimerGate } from "./DisclaimerGate";
 import type { DictKey } from "@/lib/i18n/dict";
 
 const NAV: { href: string; key: DictKey }[] = [
@@ -29,6 +30,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-full flex-col">
       <PWARegister />
+      <DisclaimerGate />
       <header className="sticky top-0 z-20 border-b border-border/60 bg-bg/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-3xl items-center justify-between px-4 py-3">
           <Link href="/" className="font-serif text-lg tracking-wide text-gold">

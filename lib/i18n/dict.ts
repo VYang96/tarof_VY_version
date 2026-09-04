@@ -56,6 +56,20 @@ export const dict = {
     zh: "塔罗帮助你梳理心绪、看见可能，而非预言未来或替你做决定。请把它当作一面镜子，最终的选择永远属于你自己。",
     en: "Tarot helps you reflect and see possibilities — it does not predict the future or decide for you. The choice is always yours.",
   },
+  "disclaimer.gateTitle": { zh: "开始之前", en: "Before you begin" },
+  "disclaimer.accept": { zh: "我明白了", en: "I understand" },
+
+  "safety.title": { zh: "先照顾好自己", en: "Take care of yourself first" },
+  "safety.body": {
+    zh: "如果你正被强烈的痛苦、伤害自己或轻生的念头困扰，塔罗无法替代真正的帮助。你值得被认真对待——请联系信任的人，或专业的心理援助。",
+    en: "If you are struggling with intense distress or thoughts of harming yourself, tarot is not a substitute for real help. You deserve support — please reach out to someone you trust or a mental health professional.",
+  },
+  "safety.resources": {
+    zh: "求助热线：希望24热线 400-161-9995 · 北京心理危机干预中心 010-82951332 · 紧急情况请拨打当地急救电话。",
+    en: "Helplines: US & Canada 988 · UK 116 123 (Samaritans) · or your local emergency number. Please search for a hotline in your region.",
+  },
+  "safety.continue": { zh: "仍要继续占卜", en: "Continue anyway" },
+  "safety.back": { zh: "返回", en: "Go back" },
 } as const;
 
 export type DictKey = keyof typeof dict;
