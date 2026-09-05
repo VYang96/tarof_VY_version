@@ -28,6 +28,7 @@ export const dict = {
   "flow.draw": { zh: "抽牌", en: "Draw" },
   "flow.next": { zh: "下一步", en: "Next" },
   "flow.skip": { zh: "跳过", en: "Skip" },
+  "flow.cardsUnit": { zh: "张", en: "cards" },
 
   "result.title": { zh: "你的牌", en: "Your Cards" },
   "result.fixedMeaning": { zh: "牌义解读", en: "Card Meaning" },
@@ -41,18 +42,32 @@ export const dict = {
   "result.sharing": { zh: "生成中…", en: "Generating…" },
   "result.upright": { zh: "正位", en: "Upright" },
   "result.reversed": { zh: "逆位", en: "Reversed" },
+  "result.revealing": { zh: "正在为你翻开……", en: "Turning your cards…" },
+  "result.reRead": { zh: "重新解读", en: "Regenerate" },
 
   "card.upright": { zh: "正位", en: "Upright" },
   "card.reversed": { zh: "逆位", en: "Reversed" },
+  "card.uprightShort": { zh: "正", en: "Up" },
+  "card.reversedShort": { zh: "逆", en: "Rev" },
+
+  "common.delete": { zh: "删除", en: "Delete" },
+  "common.close": { zh: "关闭", en: "Close" },
 
   "history.empty": { zh: "还没有记录，去抽一次吧", en: "No readings yet — draw your first card" },
   "history.favorite": { zh: "收藏", en: "Favorite" },
 
   "library.title": { zh: "牌库图鉴", en: "Card Library" },
   "library.search": { zh: "搜索牌名或关键词", en: "Search name or keyword" },
+  "library.group.major": { zh: "大阿卡纳", en: "Major Arcana" },
+  "library.group.wands": { zh: "权杖", en: "Wands" },
+  "library.group.cups": { zh: "圣杯", en: "Cups" },
+  "library.group.swords": { zh: "宝剑", en: "Swords" },
+  "library.group.pentacles": { zh: "星币", en: "Pentacles" },
 
   "settings.language": { zh: "语言", en: "Language" },
   "settings.theme": { zh: "主题", en: "Theme" },
+  "settings.themeDark": { zh: "星空", en: "Starry" },
+  "settings.themeCandle": { zh: "烛光", en: "Candle" },
   "settings.reversed": { zh: "启用逆位", en: "Enable reversed cards" },
 
   "disclaimer.title": { zh: "仅供参考", en: "For reflection only" },

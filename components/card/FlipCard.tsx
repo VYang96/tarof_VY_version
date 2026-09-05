@@ -46,16 +46,16 @@ export function FlipCard({
             reduce ? { duration: 0 } : { duration: 0.6, ease: [0.4, 0, 0.2, 1] }
           }
         >
-          {/* 正面 */}
+          {/* 正面（描边由 CardFace 自己按图/程序化模式决定） */}
           <div
-            className="absolute inset-0 rounded-xl border border-gold/70"
+            className="absolute inset-0 overflow-hidden rounded-xl"
             style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden" }}
           >
             <CardFace card={card} reversed={reversed} glyph={cardGlyph(card)} />
           </div>
           {/* 背面 */}
           <div
-            className="absolute inset-0 rounded-xl border border-gold/40"
+            className="absolute inset-0 overflow-hidden rounded-xl"
             style={{
               backfaceVisibility: "hidden",
               WebkitBackfaceVisibility: "hidden",

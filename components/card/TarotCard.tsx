@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
-import { cardImageSrc } from "@/lib/data";
+import { cardImageSrc, cardName, cardSub } from "@/lib/data";
+import { useSettings } from "@/lib/store/settings";
+import { useT } from "@/lib/i18n";
 import type { Card, Suit } from "@/types/tarot";
 
 // 花色对应的炼金元素符号（程序化牌面 · PRD §7 风格统一）
@@ -42,6 +44,7 @@ export interface TarotCardProps {
   /** 位置标签，如「过去」 */
   positionLabel?: string;
   size?: number; // 宽度像素，高按 5:8 比例
+  fluid?: boolean; // 撑满容器宽度（网格用），忽略 size
   onClick?: () => void;
   className?: string;
 }
@@ -52,13 +55,16 @@ export function TarotCard({
   faceDown = false,
   positionLabel,
   size = 140,
+  fluid = false,
   onClick,
   className = "",
 }: TarotCardProps) {
   const height = Math.round(size * 1.6);
 
   return (
-    <figure className={`flex flex-col items-center gap-2 ${className}`}>
+    <figure
+      className={`flex flex-col items-center gap-2 ${fluid ? "w-full" : ""} ${className}`}
+    >
       {positionLabel && (
         <figcaption className="text-xs text-fg-muted">{positionLabel}</figcaption>
       )}
@@ -66,10 +72,12 @@ export function TarotCard({
         type="button"
         onClick={onClick}
         disabled={!onClick}
-        style={{ width: size, height }}
-        className={`group relative rounded-xl border transition-transform duration-300 ${
+        style={fluid ? undefined : { width: size, height }}
+        className={`group relative overflow-hidden rounded-xl transition-transform duration-300 ${
+          fluid ? "aspect-[5/8] w-full" : ""
+        } ${
           onClick ? "glow-gold cursor-pointer hover:-translate-y-1" : "cursor-default"
-        } ${faceDown ? "border-gold/40" : "border-gold/70"}`}
+        }`}
       >
         {faceDown ? (
           <CardBack />
@@ -83,7 +91,7 @@ export function TarotCard({
 
 export function CardBack() {
   return (
-    <div className="absolute inset-0 overflow-hidden rounded-xl bg-bg-elev-2">
+    <div className="absolute inset-0 overflow-hidden rounded-xl border border-gold/40 bg-bg-elev-2">
       <div className="absolute inset-[3px] rounded-lg border border-gold/30" />
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-3xl text-gold/60">✦</div>
@@ -109,10 +117,19 @@ export function CardFace({
   glyph: string;
 }) {
   const [imgOk, setImgOk] = useState(false);
+  const locale = useSettings((s) => s.locale);
+  const t = useT();
   const src = card ? cardImageSrc(card.id) : null;
+  const title = card ? cardName(card, locale) : "";
+  const subtitle = card ? cardSub(card, locale) : "";
+  const revBadge = t("card.reversedShort");
 
   return (
-    <div className="absolute inset-0 overflow-hidden rounded-xl bg-gradient-to-b from-bg-elev-2 to-bg-elev">
+    <div
+      className={`absolute inset-0 overflow-hidden rounded-xl bg-gradient-to-b from-bg-elev-2 to-bg-elev ${
+        imgOk ? "" : "border border-gold/60"
+      }`}
+    >
       {/* 插画层：加载成功才显示；缺图/失败则透明，露出下方程序化牌面 */}
       {src && (
         // eslint-disable-next-line @next/next/no-img-element
@@ -121,7 +138,7 @@ export function CardFace({
           alt={card?.name ?? ""}
           onLoad={() => setImgOk(true)}
           onError={() => setImgOk(false)}
-          className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-300 ${
+          className={`absolute inset-0 h-full w-full object-contain transition-opacity duration-300 ${
             imgOk ? "opacity-100" : "opacity-0"
           } ${reversed ? "rotate-180" : ""}`}
         />
@@ -135,7 +152,7 @@ export function CardFace({
       >
         <span className="font-serif text-xs text-gold-soft">
           {card ? roman(card.number) : ""}
-          {reversed && <span className="ml-1 text-danger">逆</span>}
+          {reversed && <span className="ml-1 text-danger">{revBadge}</span>}
         </span>
         <span
           className={`text-4xl text-gold drop-shadow-[0_0_8px_rgba(214,172,87,0.35)] ${
@@ -145,25 +162,24 @@ export function CardFace({
           {glyph}
         </span>
         <div className="text-center leading-tight">
-          <div className="font-serif text-sm text-fg">{card?.name ?? ""}</div>
+          <div className="font-serif text-sm text-fg">{title}</div>
           <div className="font-serif text-[10px] italic text-fg-muted">
-            {card?.en ?? ""}
+            {subtitle}
           </div>
         </div>
       </div>
 
-      {/* 插画模式下的信息浮层：底部渐变 + 名称，保证可读 */}
-      {imgOk && (
-        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent px-2 pb-2 pt-6 text-center">
-          <div className="font-serif text-sm text-fg drop-shadow">
-            {card?.name ?? ""}
-            {reversed && <span className="ml-1 text-xs text-danger">逆</span>}
-          </div>
-        </div>
+      {/* 插画自带牌名；逆位时仅在角落标记，避免与画面文字重复 */}
+      {imgOk && reversed && (
+        <span className="absolute left-1.5 top-1.5 rounded bg-black/60 px-1.5 py-0.5 text-[10px] font-medium text-danger">
+          {revBadge}
+        </span>
       )}
 
-      {/* 金色描边（始终在最上层） */}
-      <div className="pointer-events-none absolute inset-[3px] rounded-lg border border-gold/40" />
+      {/* 程序化牌面的内描边（插画模式不加，避免压住画面自带的框） */}
+      {!imgOk && (
+        <div className="pointer-events-none absolute inset-[3px] rounded-lg border border-gold/40" />
+      )}
     </div>
   );
 }

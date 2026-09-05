@@ -2,7 +2,7 @@
 import { useHistory } from "@/lib/store/history";
 import { useSettings } from "@/lib/store/settings";
 import { useT } from "@/lib/i18n";
-import { getCard, getSpread, CATEGORIES } from "@/lib/data";
+import { getCard, getSpread, CATEGORIES, spreadName, cardName } from "@/lib/data";
 
 export default function HistoryPage() {
   const t = useT();
@@ -34,7 +34,7 @@ export default function HistoryPage() {
                   <span className="rounded-full border border-border px-2 py-0.5">
                     {cat ? (locale === "zh" ? cat.zh : cat.en) : r.category}
                   </span>
-                  <span>{spread?.name}</span>
+                  <span>{spread ? spreadName(spread, locale) : ""}</span>
                   <span>{new Date(r.createdAt).toLocaleDateString()}</span>
                 </div>
                 {r.question && (
@@ -48,8 +48,8 @@ export default function HistoryPage() {
                         key={d.position}
                         className="rounded border border-border px-1.5 py-0.5 text-fg-muted"
                       >
-                        {card?.name}
-                        {d.reversed ? "(逆)" : ""}
+                        {card ? cardName(card, locale) : d.cardId}
+                        {d.reversed ? `(${t("card.reversedShort")})` : ""}
                       </span>
                     );
                   })}
@@ -67,7 +67,7 @@ export default function HistoryPage() {
                   onClick={() => remove(r.id)}
                   className="text-xs text-fg-muted hover:text-danger"
                 >
-                  删除
+                  {t("common.delete")}
                 </button>
               </div>
             </div>

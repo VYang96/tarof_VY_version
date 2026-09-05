@@ -37,7 +37,9 @@ export interface Card {
   number: number;
   element: string; // 对应元素
   keywords: string[]; // 关键词标签
-  meanings: CardMeanings;
+  keywordsEn?: string[]; // 英文关键词
+  meanings: CardMeanings; // 中文牌义
+  meaningsEn?: CardMeanings; // 英文牌义（PRD §10，阶段二）
 }
 
 /** 牌阵中的一个位置（PRD §4.2） */
@@ -45,6 +47,7 @@ export interface SpreadPosition {
   index: number; // 数组下标
   order: number; // 翻牌/解读顺序
   label: string; // 位置名称
+  labelEn?: string; // 英文位置名称
   meaning: string; // 位置含义
   layout: { x: number; y: number }; // 归一化坐标 0~1，原点左上
 }
@@ -53,10 +56,12 @@ export interface SpreadPosition {
 export interface Spread {
   id: string;
   name: string;
+  nameEn?: string;
   cardCount: number;
   bestFor: Category[];
   positions: SpreadPosition[];
   howToRead: string;
+  howToReadEn?: string;
 }
 
 /** 一次抽牌结果 */

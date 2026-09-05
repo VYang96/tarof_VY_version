@@ -6,7 +6,16 @@ import { useReading } from "@/lib/store/reading";
 import { useHistory, newReadingId } from "@/lib/store/history";
 import { useT } from "@/lib/i18n";
 import { useSettings } from "@/lib/store/settings";
-import { getCard, getSpread, getMeaning } from "@/lib/data";
+import {
+  getCard,
+  getSpread,
+  getMeaning,
+  cardName,
+  cardSub,
+  spreadName,
+  spreadHowTo,
+  positionLabel,
+} from "@/lib/data";
 import { getInterpreter, buildContext, isPlaceholderAI } from "@/lib/ai";
 import {
   generateShareImage,
@@ -82,14 +91,14 @@ export default function ResultPage() {
         appName: t("app.name"),
         tagline: t("app.tagline"),
         question,
-        spreadName: sp?.name ?? "",
+        spreadName: sp ? spreadName(sp, locale) : "",
         items: draws.map((d) => {
           const card = getCard(d.cardId);
           const pos = sp?.positions.find((p) => p.index === d.position);
           return {
-            label: pos?.label ?? "",
-            name: card?.name ?? d.cardId,
-            en: card?.en ?? "",
+            label: positionLabel(pos, locale) ?? "",
+            name: card ? cardName(card, locale) : d.cardId,
+            en: card ? cardSub(card, locale) : "",
             reversed: d.reversed,
           };
         }),
@@ -124,10 +133,13 @@ export default function ResultPage() {
         revealedCount={revealedCount}
         revealAll={revealAll}
         reduce={!!reduce}
+        locale={locale}
       />
 
       {!allRevealed && (
-        <p className="text-center text-xs text-fg-muted/70">正在为你翻开……</p>
+        <p className="text-center text-xs text-fg-muted/70">
+          {t("result.revealing")}
+        </p>
       )}
 
       {/* 翻牌完成后才展开解读 */}
@@ -141,7 +153,7 @@ export default function ResultPage() {
           >
             {spread && (
               <p className="rounded-xl border border-border bg-bg-elev/60 p-4 text-center text-xs leading-relaxed text-fg-muted">
-                {spread.howToRead}
+                {spreadHowTo(spread, locale)}
               </p>
             )}
 
@@ -154,6 +166,7 @@ export default function ResultPage() {
                 const card = getCard(d.cardId);
                 const pos = spread?.positions.find((p) => p.index === d.position);
                 if (!card) return null;
+                const label = positionLabel(pos, locale);
                 return (
                   <article
                     key={d.position}
@@ -161,10 +174,10 @@ export default function ResultPage() {
                   >
                     <div className="mb-1 flex items-baseline justify-between">
                       <span className="font-serif text-base text-fg">
-                        {pos?.label ? `${pos.label} · ` : ""}
-                        {card.name}
+                        {label ? `${label} · ` : ""}
+                        {cardName(card, locale)}
                         <span className="ml-1 text-xs italic text-fg-muted">
-                          {card.en}
+                          {cardSub(card, locale)}
                         </span>
                       </span>
                       <span
@@ -174,7 +187,7 @@ export default function ResultPage() {
                       </span>
                     </div>
                     <p className="text-sm leading-relaxed text-fg-muted">
-                      {getMeaning(card, category as Category, d.reversed)}
+                      {getMeaning(card, category as Category, d.reversed, locale)}
                     </p>
                   </article>
                 );
@@ -248,12 +261,14 @@ function SpreadBoard({
   revealedCount,
   revealAll,
   reduce,
+  locale,
 }: {
   draws: import("@/types/tarot").Draw[];
   spread: import("@/types/tarot").Spread | undefined;
   revealedCount: number;
   revealAll: () => void;
   reduce: boolean;
+  locale: "zh" | "en";
 }) {
   const count = draws.length;
   const cfg = boardCfg(count);
@@ -306,7 +321,7 @@ function SpreadBoard({
               <RevealCard
                 cardId={d.cardId}
                 reversed={d.reversed}
-                positionLabel={showLabel ? pos?.label : undefined}
+                positionLabel={showLabel ? positionLabel(pos, locale) : undefined}
                 revealed={i < revealedCount}
                 onReveal={revealAll}
                 size={cardPx}
@@ -365,6 +380,7 @@ function AiReadingSection({
   onDone: (text: string) => void;
 }) {
   const t = useT();
+  const locale = useSettings((s) => s.locale);
   const [text, setText] = useState(cached);
   const [running, setRunning] = useState(false);
   const [done, setDone] = useState(!!cached);
@@ -381,7 +397,7 @@ function AiReadingSection({
     setText("");
     const ctrl = new AbortController();
     abortRef.current = ctrl;
-    const ctx = buildContext(category, question, spreadId, draws);
+    const ctx = buildContext(category, question, spreadId, draws, locale);
     let acc = "";
     try {
       for await (const chunk of getInterpreter()(ctx, ctrl.signal)) {
@@ -429,7 +445,7 @@ function AiReadingSection({
           onClick={run}
           className="mt-3 text-xs text-fg-muted hover:text-accent"
         >
-          ↻ 重新解读
+          ↻ {t("result.reRead")}
         </button>
       )}
     </section>

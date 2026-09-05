@@ -8,33 +8,43 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 /** 把长文本切成小片，模拟逐字/逐词的流式吐出 */
 async function* stream(text: string, signal?: AbortSignal) {
   // 按标点与字符切片，读起来有节奏
-  const chunks = text.match(/[^，。；！？\n]+[，。；！？\n]?/g) ?? [text];
+  const chunks = text.match(/[^，。；！？.,;!?\n]+[，。；！？.,;!?\n]?\s?/g) ?? [text];
   for (const chunk of chunks) {
     if (signal?.aborted) return;
-    // 每片再逐字吐，制造打字机效果
     for (const ch of chunk) {
       if (signal?.aborted) return;
       yield ch;
-      await sleep(28);
+      await sleep(24);
     }
-    await sleep(120);
+    await sleep(110);
   }
 }
 
 export const placeholderInterpreter: Interpreter = async function* (ctx, signal) {
-  const opening = ctx.question
-    ? `关于你的提问「${ctx.question}」，让我们顺着这${ctx.draws.length}张牌一起看看。\n\n`
-    : `让我们顺着这${ctx.draws.length}张牌，看看此刻的能量。\n\n`;
+  const en = ctx.locale === "en";
+  const n = ctx.draws.length;
+
+  const opening = en
+    ? (ctx.question
+        ? `On your question "${ctx.question}", let's read these ${n} cards together.\n\n`
+        : `Let's read these ${n} cards and see the energy of this moment.\n\n`)
+    : (ctx.question
+        ? `关于你的提问「${ctx.question}」，让我们顺着这${n}张牌一起看看。\n\n`
+        : `让我们顺着这${n}张牌，看看此刻的能量。\n\n`);
   yield* stream(opening, signal);
 
   for (const d of ctx.draws) {
-    const line = `在「${d.positionLabel}」的位置，你抽到了${d.cardName}（${
-      d.reversed ? "逆位" : "正位"
-    }）。${d.meaning}\n\n`;
+    const orient = en
+      ? d.reversed ? "reversed" : "upright"
+      : d.reversed ? "逆位" : "正位";
+    const line = en
+      ? `In the "${d.positionLabel}" position you drew ${d.cardName} (${orient}). ${d.meaning}\n\n`
+      : `在「${d.positionLabel}」的位置，你抽到了${d.cardName}（${orient}）。${d.meaning}\n\n`;
     yield* stream(line, signal);
   }
 
-  const closing =
-    "把它们连起来看：过去的种子塑造了此刻，而此刻的选择正悄悄决定走向。这几张牌并不是替你下的定论，而是一面镜子——照见你心里其实已经有了倾向。\n\n最后想说：牌给的是建议，不是判决。真正要走哪条路，永远由你自己决定。";
+  const closing = en
+    ? "Read together: the seeds of the past shaped this moment, and the choices you make now quietly set the direction. These cards aren't a verdict handed down for you — they're a mirror, reflecting the leaning already in your heart.\n\nOne last thing: the cards offer suggestions, not sentences. Which path to walk is always yours to decide."
+    : "把它们连起来看：过去的种子塑造了此刻，而此刻的选择正悄悄决定走向。这几张牌并不是替你下的定论，而是一面镜子——照见你心里其实已经有了倾向。\n\n最后想说：牌给的是建议，不是判决。真正要走哪条路，永远由你自己决定。";
   yield* stream(closing, signal);
 };

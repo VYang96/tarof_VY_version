@@ -275,6 +275,32 @@ const COURT_EN = { page: "Page", knight: "Knight", queen: "Queen", king: "King" 
 const NUM_EN = { 1: "Ace", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten" };
 const SUIT_EN = { wands: "Wands", cups: "Cups", swords: "Swords", pentacles: "Pentacles" };
 
+// —— 英文语义块（与中文平行）——
+const SUITS_EN = {
+  wands: { name: "Wands", element: "Fire", theme: "passion, action, creativity and will", loveTheme: "passion and drive", careerTheme: "ambition and momentum", wealthTheme: "initiative and enterprise", keywords: ["Wands", "Fire", "Action"] },
+  cups: { name: "Cups", element: "Water", theme: "emotion, relationship and the heart", loveTheme: "feelings and intimacy", careerTheme: "people and feelings", wealthTheme: "value and fulfillment", keywords: ["Cups", "Water", "Emotion"] },
+  swords: { name: "Swords", element: "Air", theme: "thought, communication, truth and conflict", loveTheme: "communication and unspoken knots", careerTheme: "decisions and strategy", wealthTheme: "reason and risk", keywords: ["Swords", "Air", "Mind"] },
+  pentacles: { name: "Pentacles", element: "Earth", theme: "the material world, body and finances", loveTheme: "stability and grounding", careerTheme: "pragmatism and building", wealthTheme: "money and resources", keywords: ["Pentacles", "Earth", "Material"] }
+};
+const NUM_SEM_EN = {
+  1: { name: "Ace", up: "the seed of fresh, pure potential — a promising beginning", rev: "the opening is blocked or the chance not yet grasped; the energy hasn't landed" },
+  2: { name: "Two", up: "balance and choice, coordinating two forces and an early decision", rev: "imbalance or hesitation, hard to choose" },
+  3: { name: "Three", up: "early growth and cooperation, effort starting to show", rev: "collaboration stalls or progress is delayed" },
+  4: { name: "Four", up: "stability and consolidation, guarding what you have built", rev: "over-caution or stagnation, or shaky foundations" },
+  5: { name: "Five", up: "conflict and testing, meeting challenge and loss", rev: "the conflict eases, or you climb out of a setback" },
+  6: { name: "Six", up: "harmony and reward, giving and receiving in balance", rev: "imbalance or old problems resurfacing; reward is blocked" },
+  7: { name: "Seven", up: "a test of patience and persistence, needing assessment and choice", rev: "distraction, delay or misdirected effort" },
+  8: { name: "Eight", up: "focused effort driving progress; diligence moves things forward", rev: "overwork, stagnation, or too much force" },
+  9: { name: "Nine", up: "near the result, the harvest of persistence in sight", rev: "anxiety or going it alone; results fall just short" },
+  10: { name: "Ten", up: "the fullness and completion of a cycle, and a new beginning", rev: "burden or a rough finish; completion is blocked" }
+};
+const COURT_SEM_EN = {
+  page: { name: "Page", up: "the curious, learning energy of a beginner, trying and exploring with heart", rev: "immaturity or a fleeting spark; action without grounding" },
+  knight: { name: "Knight", up: "the driving force of action, charging ahead toward a goal", rev: "impulsiveness or unsteady direction; too much force" },
+  queen: { name: "Queen", up: "mastering this suit's energy inwardly, nurturing with warmth and wisdom", rev: "emotional or unbalanced control; the energy drains inward" },
+  king: { name: "King", up: "mastering this suit's energy with authority, leading with vision and responsibility", rev: "domineering or out of control; authority misused" }
+};
+
 function mkMeaning(suit, coreUp, coreRev) {
   const s = SUITS[suit];
   const line = (theme, core) => `在${theme}方面，${core}（${s.cn}的${s.element}元素能量）。`;
@@ -286,13 +312,27 @@ function mkMeaning(suit, coreUp, coreRev) {
   };
 }
 
+function mkMeaningEn(suit, coreUp, coreRev) {
+  const s = SUITS_EN[suit];
+  const line = (theme, core) => `In ${theme}, ${core} (the ${s.element} energy of ${s.name}).`;
+  const cap = (str) => str.charAt(0).toUpperCase() + str.slice(1);
+  return {
+    general: { upright: `${cap(coreUp)}. The theme of ${s.theme} surfaces in your life.`, reversed: `${cap(coreRev)}. Watch for imbalance around ${s.theme}.` },
+    love: { upright: line(s.loveTheme, coreUp), reversed: line(s.loveTheme, coreRev) },
+    career: { upright: line(s.careerTheme, coreUp), reversed: line(s.careerTheme, coreRev) },
+    wealth: { upright: line(s.wealthTheme, coreUp), reversed: line(s.wealthTheme, coreRev) }
+  };
+}
+
 function buildMinor() {
   const cards = [];
   for (const suit of Object.keys(SUITS)) {
     const s = SUITS[suit];
+    const sEn = SUITS_EN[suit];
     // 数字牌 1-10
     for (let n = 1; n <= 10; n++) {
       const info = NUM[n];
+      const infoEn = NUM_SEM_EN[n];
       const num2 = String(n).padStart(2, "0");
       cards.push({
         id: `${suit}-${num2}`,
@@ -303,12 +343,15 @@ function buildMinor() {
         number: n,
         element: s.element,
         keywords: [s.cn, info.name, s.element],
-        meanings: mkMeaning(suit, info.up, info.rev)
+        keywordsEn: [sEn.name, infoEn.name, sEn.element],
+        meanings: mkMeaning(suit, info.up, info.rev),
+        meaningsEn: mkMeaningEn(suit, infoEn.up, infoEn.rev)
       });
     }
     // 宫廷牌
     for (const rank of Object.keys(COURT)) {
       const c = COURT[rank];
+      const cEn = COURT_SEM_EN[rank];
       cards.push({
         id: `${suit}-${rank}`,
         name: `${s.cn}${c.name}`,
@@ -318,12 +361,128 @@ function buildMinor() {
         number: c.num,
         element: s.element,
         keywords: [s.cn, c.name, s.element],
-        meanings: mkMeaning(suit, c.up, c.rev)
+        keywordsEn: [sEn.name, cEn.name, sEn.element],
+        meanings: mkMeaning(suit, c.up, c.rev),
+        meaningsEn: mkMeaningEn(suit, cEn.up, cEn.rev)
       });
     }
   }
   return cards;
 }
+
+// —— 大阿卡纳英文牌义（手工）——
+const MAJOR_EN = {
+  "major-00": { keywords: ["Beginnings", "Adventure", "Innocence", "Potential"], meanings: {
+    general: { upright: "A brand-new journey is opening. Set worries down and stay curious — your innocence is your strength. Trust your gut and take the step.", reversed: "You may be reckless, or too afraid of the unknown to begin. Look before you leap." },
+    love: { upright: "A fresh spark appears; meet it with an open heart, and don't box this moment in with old stories.", reversed: "Some naivety or avoidance — dodging commitment or ignoring real signals. Be honest about what you want." },
+    career: { upright: "Good for starting something new or switching tracks; the unknown holds opportunity. Explore with a beginner's mind.", reversed: "Acting before the plan is ready invites a stumble. Prepare a little more." },
+    wealth: { upright: "Open to trying a new approach; a small test is fine. Stay light, but keep an exit.", reversed: "Spending on impulse without a plan gets out of hand. Do the math first." } } },
+  "major-01": { keywords: ["Action", "Creation", "Resources", "Focus"], meanings: {
+    general: { upright: "You already hold every tool you need; the key is turning intention into action. Focus — you're the one who makes it happen.", reversed: "Ideas without action, or talent aimed the wrong way. Stop talking, and don't use skill to manipulate." },
+    love: { upright: "You can actively create the relationship you want; sincere expression will be met. Take initiative.", reversed: "Words and actions don't match, or something's hidden. Align your heart with your deeds." },
+    career: { upright: "Skills, contacts and timing are in place — a fine time to make ideas real. Make your move.", reversed: "Resources aren't used where they matter, or it's all packaging. Return to what truly counts." },
+    wealth: { upright: "You can turn opportunity into gain; plan actively and results will show.", reversed: "A flashy but hollow plan, or lured by appearances. Verify every figure first." } } },
+  "major-02": { keywords: ["Intuition", "The unconscious", "Stillness", "Secrets"], meanings: {
+    general: { upright: "The answer isn't outside but deep within. Be still, listen to intuition, and let it surface.", reversed: "You may be ignoring your inner voice or misled by the surface. Slow down and reconnect." },
+    love: { upright: "Something is unspoken; feeling it quietly is wiser than pressing. Trust your intuition.", reversed: "Suppressed feelings or things hidden from each other breed misunderstanding. Give emotion an outlet." },
+    career: { upright: "Some things are still brewing; no need to show your hand. Observe — the timing isn't ripe.", reversed: "You ignored a doubt, or the information isn't transparent. Verify before you're convinced." },
+    wealth: { upright: "Be cautious and observant with money; intuition flags what's off.", reversed: "Unclear about your finances, or avoiding them. Open the books and face it." } } },
+  "major-03": { keywords: ["Abundance", "Nurture", "Creativity", "Sensuality"], meanings: {
+    general: { upright: "Life is abundant — a good time to nurture, whether a bond, a work, or yourself. Enjoy the fullness.", reversed: "Overgiving while neglecting yourself, or blocked creativity. Care for yourself first." },
+    love: { upright: "Warm, nourishing love; tend it and care for each other. Affection will grow.", reversed: "Giving and taking are unbalanced, or control wears the mask of love. Return to equality and ease." },
+    career: { upright: "Creativity and cooperation bear fruit; let the project grow slowly. Tending it pays off.", reversed: "Much effort, little growth, or you're skipping rest. Don't let yourself run dry." },
+    wealth: { upright: "Finances trend comfortable and steady; invest in what nourishes you long-term.", reversed: "Overspending on pleasure or a lack of restraint. Separate want from need." } } },
+  "major-04": { keywords: ["Order", "Authority", "Structure", "Control"], meanings: {
+    general: { upright: "Time to build order and take responsibility. Frame the situation with reason and discipline; stability follows.", reversed: "Too rigid or controlling, losing flexibility — or dodging the responsibility you should carry. Balance firmness with give." },
+    love: { upright: "The relationship needs stability and commitment; clear boundaries bring security.", reversed: "One side too forceful or stubborn, making things stiff. Listen more and loosen up." },
+    career: { upright: "Good for planning and taking the lead; a structured push works.", reversed: "Over-managing or autocratic, so the team can't shine. Delegate a little." },
+    wealth: { upright: "Manage money with discipline and planning; steady is the word.", reversed: "Too controlling or rigid, missing flexible chances. Leave some room." } } },
+  "major-05": { keywords: ["Tradition", "Belief", "Guidance", "Belonging"], meanings: {
+    general: { upright: "Following a proven path and asking someone trustworthy will steady you; tradition and rules are allies now.", reversed: "The old framework no longer fits — time to walk your own way. Don't be bound by convention." },
+    love: { upright: "Toward stability and commitment; traditional forms bring reassurance.", reversed: "Unwilling to be bound by convention, or values diverge. Be true to your own rhythm." },
+    career: { upright: "Playing by the rules within the system pays; also good for finding a mentor.", reversed: "The system limits you, or you disagree with the mainstream. Unconventional paths are open." },
+    wealth: { upright: "Safer to use steady, conventional money methods.", reversed: "Blindly following advice or old habits may not suit you. Judge for yourself." } } },
+  "major-06": { keywords: ["Union", "Choice", "Values", "Harmony"], meanings: {
+    general: { upright: "An important choice of the heart is before you. Choose true to your values and harmony follows.", reversed: "Clashing values or an off-balance choice; you're not of one mind. Get clear on what you truly value." },
+    love: { upright: "A deep connection and attraction, toward real fit. You may face a choice about commitment.", reversed: "Imbalance, poor communication, or wavering before temptation. Be honest with each other." },
+    career: { upright: "An important decision or partnership; choose the direction aligned with your values.", reversed: "A partnership hits friction, or you hesitate to choose. Don't betray your heart." },
+    wealth: { upright: "Base money choices on long-term value; cooperation can be win-win.", reversed: "Swinging between temptation and reason invites regret. Think twice." } } },
+  "major-07": { keywords: ["Will", "Advance", "Control", "Victory"], meanings: {
+    general: { upright: "With resolve and self-discipline you can steer opposing forces toward your goal. Focus your direction — victory is near.", reversed: "Unclear direction or inner tug-of-war cancels your force. Unify your intention first." },
+    love: { upright: "The relationship moves forward on your initiative; a step further after clearing an obstacle.", reversed: "Out of control or misaligned; pushing hard only stiffens it. Steady yourself first." },
+    career: { upright: "An all-out sprint breaks through; control the pace and you'll take the goal.", reversed: "Scattered goals, low drive, progress stalls. Gather your focus." },
+    wealth: { upright: "Push financial goals with a firm plan; discipline pays.", reversed: "Wobbly direction or too much force can crash. Hold steady." } } },
+  "major-08": { keywords: ["Courage", "Gentleness", "Inner power", "Patience"], meanings: {
+    general: { upright: "True strength is gentle, steady self-mastery. Tame inner restlessness with patience and love — you're stronger than you think.", reversed: "Self-doubt or runaway emotion drains your power inward. Be kind to yourself first." },
+    love: { upright: "Tend the bond with tolerance and patience; gentle persistence beats force.", reversed: "Insecurity or emotion in the driver's seat wears the relationship out. Find your inner steadiness." },
+    career: { upright: "Face challenges with composure and resilience; soft-yet-firm wins the day.", reversed: "Under pressure you lose patience or confidence, and it shows. Reset your mindset." },
+    wealth: { upright: "Manage money calmly and patiently; don't be led by emotion.", reversed: "Impulsive spending or anxious decisions unbalance things. Take a breath." } } },
+  "major-09": { keywords: ["Introspection", "Solitude", "Guidance", "Seeking"], meanings: {
+    general: { upright: "Withdraw inward; solitude brings clear insight. The answer comes from seeking within, not outer noise.", reversed: "Over-isolating or avoiding reality — or refusing guidance you should accept. Don't shut yourself away too tightly." },
+    love: { upright: "You need some space to see the relationship clearly, or you meet a more mature bond in the quiet.", reversed: "Too closed off or distant, letting things cool. Open up a little." },
+    career: { upright: "Good for independent study and deepening expertise; a calm mind finds the way.", reversed: "Working in a vacuum or out of step with the team stalls progress. Come out and connect." },
+    wealth: { upright: "Review finances calmly and independently, free of outside noise.", reversed: "Too cautious or avoidant with money, missing the moment. Act in measure." } } },
+  "major-10": { keywords: ["Turning point", "Cycles", "Fortune", "Change"], meanings: {
+    general: { upright: "The wheel turns; a turning point is coming. Move with the rhythm of change and catch this upward swing.", reversed: "Fortune dips or you're stuck in a loop. Don't resist — adjust, then flow with it." },
+    love: { upright: "A turn in the relationship; letting it unfold naturally brings surprising progress.", reversed: "Ups and downs, or repeating old patterns; break the loop." },
+    career: { upright: "A window of opportunity opens; seizing the timing brings a leap.", reversed: "Outside variables disrupt the plan and throw off your pace. Stay flexible." },
+    wealth: { upright: "An upward turn in fortune; position yourself with the trend.", reversed: "Finances are hard to predict; avoid big decisions at the low point." } } },
+  "major-11": { keywords: ["Fairness", "Cause & effect", "Responsibility", "Balance"], meanings: {
+    general: { upright: "Everything runs on cause, effect and balance; decide honestly and responsibly now. You reap what you sow.", reversed: "Dodging responsibility or being unfair; your conscience isn't clear. Face the truth and own your choices." },
+    love: { upright: "The relationship needs fairness and candor; problems resolve only when laid on the table.", reversed: "Responsibilities are unevenly shared, or something's hidden; imbalance follows. Be honest." },
+    career: { upright: "Handle matters fairly and methodically; contracts and decisions turn out well.", reversed: "There's unfairness or an oversight; check carefully. Don't count on luck." },
+    wealth: { upright: "Keep money matters compliant and clear; weigh before deciding.", reversed: "Muddled accounts or hasty decisions plant trouble. Sort it out first." } } },
+  "major-12": { keywords: ["Pause", "Perspective", "Surrender", "Insight"], meanings: {
+    general: { upright: "A deliberate pause brings a new angle. Let go of attachment, shift your view, and the stuck situation opens up.", reversed: "Pointless delay or sacrifice, stuck in place and unwilling to shift. Release what should be released; move what should move." },
+    love: { upright: "Retreat to advance; setting expectations down loosens the bond. See it from their side.", reversed: "Over-sacrificing or a stubborn standoff — both lose. Rebalance." },
+    career: { upright: "Pause and reassess; you'll spot a better path.", reversed: "Endless indecision or gridlock just drains you. Make the call." },
+    wealth: { upright: "Hold still for now; a new angle makes your finances clearer.", reversed: "Indecision misses the moment, or you cling to a loss. Cut it in time." } } },
+  "major-13": { keywords: ["Endings", "Transformation", "Letting go", "Rebirth"], meanings: {
+    general: { upright: "A phase reaches its end; only by letting go can new life come. Don't fear endings — they're the path of transformation.", reversed: "Resisting an inevitable ending, clinging to the past and stalling. Let go to move on." },
+    love: { upright: "The relationship goes through deep change; the end of an old pattern buys a truer connection.", reversed: "Unwilling to release a finished love, or dragging on out of fear of change. Give each other freedom." },
+    career: { upright: "The old wraps up; a pivot or transition brings new chances.", reversed: "Resisting change and clinging to old ways lets the chance slip. Move with the trend." },
+    wealth: { upright: "Financial patterns face a reset; ending what doesn't work allows rebirth.", reversed: "Unwilling to change old money habits; problems drag and pile up." } } },
+  "major-14": { keywords: ["Balance", "Blending", "Patience", "The middle way"], meanings: {
+    general: { upright: "Blend opposing forces with patience and find your middle way. Unhurried and just-right is the wisdom.", reversed: "Imbalance or excess — you've gone to an extreme. Find your rhythm and proportion again." },
+    love: { upright: "The bond harmonizes through mutual adjustment; patient tending lasts longer.", reversed: "Out-of-sync steps or impatience cause friction. Slow the run-in." },
+    career: { upright: "Balance the sides and proceed step by step; you'll reach the goal steadily.", reversed: "Too much force or unbalanced resources dull efficiency. Recalibrate." },
+    wealth: { upright: "Live within your means and build steadily; finances come into balance.", reversed: "Income and outgo are unbalanced, or you're rushing in. Show restraint." } } },
+  "major-15": { keywords: ["Bondage", "Desire", "Attachment", "Shadow"], meanings: {
+    general: { upright: "You may be caught by desire, habit, or a certain bond. See that the chain is often self-made — you can unbind it anytime.", reversed: "You're breaking free, waking from an old attachment. The release is hard, but the direction is right." },
+    love: { upright: "Strong attraction, but perhaps laced with possession or dependence. Tell love apart from clinging.", reversed: "Beginning to shed an unhealthy pattern and reclaim your freedom." },
+    career: { upright: "Compromising for material gain, or bound to the job; beware losing autonomy.", reversed: "Stepping out of a suffocating situation and taking back your choice." },
+    wealth: { upright: "Driven by materialism or short-term temptation; beware debt or overspending.", reversed: "Beginning to break the money chains and move toward discipline." } } },
+  "major-16": { keywords: ["Collapse", "Upheaval", "Awakening", "Release"], meanings: {
+    general: { upright: "An old structure crashes down — sudden, yet it clears a false foundation. Break to rebuild; the truth sets you free.", reversed: "Barely propping up a teetering situation, or delaying an inevitable collapse. Better a short pain than a long one." },
+    love: { upright: "The relationship goes through a violent shake; truth surfaces. Rupture or turning point, both are new starts.", reversed: "Resisting a necessary break; forcing it to hold only hurts more." },
+    career: { upright: "A sudden shock upends the plan — yet forces a new direction out.", reversed: "The crisis is pressed down for now, but the hazard remains. Face the problem." },
+    wealth: { upright: "Finances hit an upheaval; a timely response stops the loss and rebuilds.", reversed: "Avoiding a money crisis only lets it snowball." } } },
+  "major-17": { keywords: ["Hope", "Healing", "Guidance", "Serenity"], meanings: {
+    general: { upright: "After the storm, the light of hope returns. Heal, trust the future — a serene faith guides you on.", reversed: "Losing faith in the future or feeling lost; clouds cover the light. Rekindle hope." },
+    love: { upright: "The bond enters a phase of healing and nourishment; sincerity brings calm and hope.", reversed: "Feeling let down or low on faith; it needs time to mend. Don't give up hope." },
+    career: { upright: "A clear vision appears; carry hope forward and you'll be guided.", reversed: "Feeling lost or disheartened about direction. Reclaim your faith." },
+    wealth: { upright: "The financial outlook brightens; plan the future with optimism and reason.", reversed: "Low confidence or over-pessimism about money. Steady your mindset." } } },
+  "major-18": { keywords: ["Illusion", "The unconscious", "Unease", "Intuition"], meanings: {
+    general: { upright: "Things aren't clear yet; fear and illusion magnify easily. Don't be led by the emotional fog — let intuition carry you through the night.", reversed: "The fog begins to lift, truth grows clearer, and unease recedes." },
+    love: { upright: "Unnamed doubts or misunderstanding; don't rush to conclusions. Listen to intuition.", reversed: "Misreadings clear up; hidden feelings surface and are released." },
+    career: { upright: "Info is unclear or currents run beneath; act carefully and don't decide on guesses.", reversed: "Truth surfaces, confusion dissolves — you can see the way now." },
+    wealth: { upright: "Finances are opaque; beware risks you can't see clearly.", reversed: "The fog clears and the root of the money problem grows plain." } } },
+  "major-19": { keywords: ["Joy", "Success", "Vitality", "Clarity"], meanings: {
+    general: { upright: "Sunlight everywhere; joy and success follow. All is clear and full of life — let your light shine freely.", reversed: "Joy is briefly veiled, or optimism overlooks reality. The light is still there — part the clouds." },
+    love: { upright: "A warm, bright relationship, full of sincere joy and vitality.", reversed: "The glow dims for now, or surface cheer hides a problem. Return to sincerity." },
+    career: { upright: "Results show and recognition comes — a great time to shine.", reversed: "Success comes a bit slower, or confidence takes a knock. Don't rush; the light returns." },
+    wealth: { upright: "Finances are bright and gains in sight; earn openly and honestly.", reversed: "Over-optimistic about money; watch for hidden expenses." } } },
+  "major-20": { keywords: ["Awakening", "Calling", "Reckoning", "Rebirth"], meanings: {
+    general: { upright: "An inner awakening — you review the past and answer a higher calling. Set judgment down and greet your reborn self.", reversed: "Too much self-criticism, or long unwilling to face things, missing the moment to awaken. Listen to the inner call." },
+    love: { upright: "The relationship reaches a reckoning and reconciliation; forgiveness offers a chance at rebirth.", reversed: "Stuck in old scores or regret, hard to turn the page. Learn to let go." },
+    career: { upright: "Reassess your direction; a change or comeback is right on time.", reversed: "Indecision or self-doubt lets a chance for change slip by." },
+    wealth: { upright: "Review finances fully, regroup and greet a new phase.", reversed: "Avoiding a financial reckoning leaves old problems unresolved." } } },
+  "major-21": { keywords: ["Completion", "Fulfillment", "Integration", "Achievement"], meanings: {
+    general: { upright: "A cycle closes in fullness; you've reached a whole. Celebrate the achievement, and get ready for the next journey.", reversed: "Near completion but stuck on the last step, or a piece is missing. Fill it in and it's whole." },
+    love: { upright: "The relationship reaches fullness and stability; you're wholly together.", reversed: "The bond is a step short of arriving; there's still unfinished work." },
+    career: { upright: "The project completes in full, bringing recognition and a sense of achievement.", reversed: "The final step is undone; wrap it up. Don't quit halfway." },
+    wealth: { upright: "Financial goals are met, entering an abundant, stable phase.", reversed: "Just a step from the goal — see it through." } } }
+};
 
 // ---------------------------------------------------------------------------
 // 组装 & 输出
@@ -337,7 +496,9 @@ const major = MAJOR.map((c) => ({
   number: c.number,
   element: c.element,
   keywords: c.keywords,
-  meanings: normalizeMeanings(c.meanings)
+  keywordsEn: MAJOR_EN[c.id]?.keywords ?? [],
+  meanings: normalizeMeanings(c.meanings),
+  meaningsEn: MAJOR_EN[c.id] ? normalizeMeanings(MAJOR_EN[c.id].meanings) : undefined
 }));
 
 // 修正手工数据里可能的笔误字段，确保四类别 × 正逆位齐全
@@ -356,12 +517,19 @@ function normalizeMeanings(m) {
 
 const all = [...major, ...buildMinor()];
 
-// 校验
+// 校验：中英牌义齐全
 const missing = [];
 for (const c of all) {
   for (const cat of ["general", "love", "career", "wealth"]) {
     if (!c.meanings[cat].upright || !c.meanings[cat].reversed) {
-      missing.push(`${c.id}.${cat}`);
+      missing.push(`${c.id}.${cat}(zh)`);
+    }
+    if (
+      !c.meaningsEn ||
+      !c.meaningsEn[cat].upright ||
+      !c.meaningsEn[cat].reversed
+    ) {
+      missing.push(`${c.id}.${cat}(en)`);
     }
   }
 }

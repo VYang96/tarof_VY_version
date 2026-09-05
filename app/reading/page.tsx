@@ -4,7 +4,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { useReading } from "@/lib/store/reading";
 import { useSettings } from "@/lib/store/settings";
 import { useT } from "@/lib/i18n";
-import { CATEGORIES, SPREADS, getSpread } from "@/lib/data";
+import { CATEGORIES, SPREADS, getSpread, spreadName, spreadHowTo } from "@/lib/data";
 import { TarotCard } from "@/components/card/TarotCard";
 import { checkSafety } from "@/lib/safety";
 import { useState } from "react";
@@ -151,6 +151,7 @@ function StepSpread({
   onBack: () => void;
 }) {
   const t = useT();
+  const locale = useSettings((s) => s.locale);
   // 按类别推荐，但都可选
   const spreads = SPREADS.filter(
     (s) => !category || s.bestFor.includes(category)
@@ -177,13 +178,15 @@ function StepSpread({
             className="glow-gold w-full rounded-xl border border-border bg-bg-elev p-4 text-left transition-colors hover:border-gold"
           >
             <div className="flex items-center justify-between">
-              <span className="font-serif text-lg text-fg">{s.name}</span>
+              <span className="font-serif text-lg text-fg">
+                {spreadName(s, locale)}
+              </span>
               <span className="rounded-full border border-gold/30 px-2 py-0.5 text-xs text-gold-soft">
-                {s.cardCount} 张
+                {s.cardCount} {t("flow.cardsUnit")}
               </span>
             </div>
             <p className="mt-1 text-xs leading-relaxed text-fg-muted">
-              {s.howToRead}
+              {spreadHowTo(s, locale)}
             </p>
           </motion.button>
         ))}

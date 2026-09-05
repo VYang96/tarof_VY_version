@@ -2,6 +2,7 @@
   {
     "id": "single",
     "name": "单张牌",
+    "nameEn": "Single Card",
     "cardCount": 1,
     "bestFor": ["general", "love", "career", "wealth"],
     "positions": [
@@ -9,15 +10,18 @@
         "index": 0,
         "order": 1,
         "label": "指引",
+        "labelEn": "Guidance",
         "meaning": "此刻最需要看见的能量",
         "layout": { "x": 0.5, "y": 0.5 }
       }
     ],
-    "howToRead": "抽出一张牌，作为当下问题的核心指引。它不给答案，而是提示你此刻值得留意的能量与心态。"
+    "howToRead": "抽出一张牌，作为当下问题的核心指引。它不给答案，而是提示你此刻值得留意的能量与心态。",
+    "howToReadEn": "Draw one card as the core guidance for your question. It won't hand you an answer, but points to the energy and mindset worth noticing right now."
   },
   {
     "id": "three-card",
     "name": "三张牌阵",
+    "nameEn": "Three-Card",
     "cardCount": 3,
     "bestFor": ["general", "love", "career", "wealth"],
     "positions": [
@@ -25,6 +29,7 @@
         "index": 0,
         "order": 1,
         "label": "过去",
+        "labelEn": "Past",
         "meaning": "事情的根源",
         "layout": { "x": 0.2, "y": 0.5 }
       },
@@ -32,6 +37,7 @@
         "index": 1,
         "order": 2,
         "label": "现在",
+        "labelEn": "Present",
         "meaning": "当前处境",
         "layout": { "x": 0.5, "y": 0.5 }
       },
@@ -39,15 +45,18 @@
         "index": 2,
         "order": 3,
         "label": "未来",
+        "labelEn": "Future",
         "meaning": "趋势走向",
         "layout": { "x": 0.8, "y": 0.5 }
       }
     ],
-    "howToRead": "从左到右读出一条时间线：过去的根源如何塑造了现在的处境，现在的选择又将把你带向怎样的未来。三张牌互为因果，连起来看比单独看更完整。"
+    "howToRead": "从左到右读出一条时间线：过去的根源如何塑造了现在的处境，现在的选择又将把你带向怎样的未来。三张牌互为因果，连起来看比单独看更完整。",
+    "howToReadEn": "Read left to right as a timeline: how the roots of the past shaped the present, and where the present is heading. The three cards are cause and effect — clearer together than apart."
   },
   {
     "id": "relationship-four",
     "name": "恋人四张",
+    "nameEn": "Relationship (4 Cards)",
     "cardCount": 4,
     "bestFor": ["love"],
     "positions": [
@@ -55,6 +64,7 @@
         "index": 0,
         "order": 1,
         "label": "你",
+        "labelEn": "You",
         "meaning": "你在这段关系里的状态与付出",
         "layout": { "x": 0.3, "y": 0.35 }
       },
@@ -62,6 +72,7 @@
         "index": 1,
         "order": 2,
         "label": "对方",
+        "labelEn": "Them",
         "meaning": "对方的状态与付出",
         "layout": { "x": 0.7, "y": 0.35 }
       },
@@ -69,6 +80,7 @@
         "index": 2,
         "order": 3,
         "label": "关系现状",
+        "labelEn": "The Bond",
         "meaning": "你们之间当前的连接",
         "layout": { "x": 0.5, "y": 0.6 }
       },
@@ -76,15 +88,18 @@
         "index": 3,
         "order": 4,
         "label": "走向",
+        "labelEn": "Direction",
         "meaning": "关系可能的发展",
         "layout": { "x": 0.5, "y": 0.85 }
       }
     ],
-    "howToRead": "先看你与对方各自的状态与付出，再看两股能量如何塑造了你们当前的连接，最后一张指向关系可能的走向。它照见的是关系里的互动，而非替谁下判断。"
+    "howToRead": "先看你与对方各自的状态与付出，再看两股能量如何塑造了你们当前的连接，最后一张指向关系可能的走向。它照见的是关系里的互动，而非替谁下判断。",
+    "howToReadEn": "First read your and the other's states and efforts, then how those energies shape your current bond, and finally where the relationship may head. It mirrors the dynamic between you — not a verdict on anyone."
   },
   {
     "id": "decision-five",
     "name": "抉择五张",
+    "nameEn": "Decision (5 Cards)",
     "cardCount": 5,
     "bestFor": ["general", "career", "wealth", "love"],
     "positions": [
@@ -92,6 +107,7 @@
         "index": 0,
         "order": 1,
         "label": "现状",
+        "labelEn": "Situation",
         "meaning": "你当前面临的处境",
         "layout": { "x": 0.5, "y": 0.25 }
       },
@@ -99,6 +115,7 @@
         "index": 1,
         "order": 2,
         "label": "选择 A",
+        "labelEn": "Option A",
         "meaning": "选项 A 的能量",
         "layout": { "x": 0.25, "y": 0.5 }
       },
@@ -106,6 +123,7 @@
         "index": 2,
         "order": 3,
         "label": "A 的走向",
+        "labelEn": "Path A",
         "meaning": "选择 A 可能的结果",
         "layout": { "x": 0.25, "y": 0.78 }
       },
@@ -113,6 +131,7 @@
         "index": 3,
         "order": 4,
         "label": "选择 B",
+        "labelEn": "Option B",
         "meaning": "选项 B 的能量",
         "layout": { "x": 0.75, "y": 0.5 }
       },
@@ -120,15 +139,18 @@
         "index": 4,
         "order": 5,
         "label": "B 的走向",
+        "labelEn": "Path B",
         "meaning": "选择 B 可能的结果",
         "layout": { "x": 0.75, "y": 0.78 }
       }
     ],
-    "howToRead": "顶部是你此刻的处境；左右两列分别是两个选项各自的能量与走向。对照两条路的画面，帮你看清心里的倾向——但最终选择永远在你自己手里。"
+    "howToRead": "顶部是你此刻的处境；左右两列分别是两个选项各自的能量与走向。对照两条路的画面，帮你看清心里的倾向——但最终选择永远在你自己手里。",
+    "howToReadEn": "The top is your situation now; the two columns are each option's energy and where it leads. Compare the two paths to see your leaning — but the final choice is always yours."
   },
   {
     "id": "self-four",
     "name": "自我探索四张",
+    "nameEn": "Self-Exploration (4 Cards)",
     "cardCount": 4,
     "bestFor": ["general", "love", "career"],
     "positions": [
@@ -136,6 +158,7 @@
         "index": 0,
         "order": 1,
         "label": "表层",
+        "labelEn": "Surface",
         "meaning": "你对外呈现的样子",
         "layout": { "x": 0.3, "y": 0.35 }
       },
@@ -143,6 +166,7 @@
         "index": 1,
         "order": 2,
         "label": "内在",
+        "labelEn": "Inner",
         "meaning": "藏在底下的真实感受",
         "layout": { "x": 0.7, "y": 0.35 }
       },
@@ -150,6 +174,7 @@
         "index": 2,
         "order": 3,
         "label": "阻碍",
+        "labelEn": "Block",
         "meaning": "卡住你的东西",
         "layout": { "x": 0.3, "y": 0.72 }
       },
@@ -157,15 +182,18 @@
         "index": 3,
         "order": 4,
         "label": "成长",
+        "labelEn": "Growth",
         "meaning": "可以练习的方向",
         "layout": { "x": 0.7, "y": 0.72 }
       }
     ],
-    "howToRead": "上排是你的表层与内在——外显的样子与底下的真实感受；下排是当前的阻碍与可练习的成长方向。四张合看，是一次温柔的自我照见。"
+    "howToRead": "上排是你的表层与内在——外显的样子与底下的真实感受；下排是当前的阻碍与可练习的成长方向。四张合看，是一次温柔的自我照见。",
+    "howToReadEn": "The top row is your surface and inner self — what you show and what you truly feel; the bottom row is your current block and a direction to grow. Together, a gentle look inward."
   },
   {
     "id": "celtic-cross",
     "name": "凯尔特十字",
+    "nameEn": "Celtic Cross",
     "cardCount": 10,
     "bestFor": ["general", "love", "career", "wealth"],
     "positions": [
@@ -173,6 +201,7 @@
         "index": 0,
         "order": 1,
         "label": "现状",
+        "labelEn": "Present",
         "meaning": "问题的核心与当下",
         "layout": { "x": 0.27, "y": 0.44 }
       },
@@ -180,6 +209,7 @@
         "index": 1,
         "order": 2,
         "label": "挑战",
+        "labelEn": "Challenge",
         "meaning": "横亘眼前的阻力",
         "layout": { "x": 0.27, "y": 0.44 }
       },
@@ -187,6 +217,7 @@
         "index": 2,
         "order": 3,
         "label": "根基",
+        "labelEn": "Foundation",
         "meaning": "事情的深层根源",
         "layout": { "x": 0.27, "y": 0.72 }
       },
@@ -194,6 +225,7 @@
         "index": 3,
         "order": 4,
         "label": "过去",
+        "labelEn": "Past",
         "meaning": "刚过去、正在离开的影响",
         "layout": { "x": 0.02, "y": 0.44 }
       },
@@ -201,6 +233,7 @@
         "index": 4,
         "order": 5,
         "label": "目标",
+        "labelEn": "Goal",
         "meaning": "你意识中的期望与可能",
         "layout": { "x": 0.27, "y": 0.16 }
       },
@@ -208,6 +241,7 @@
         "index": 5,
         "order": 6,
         "label": "未来",
+        "labelEn": "Future",
         "meaning": "即将到来的走向",
         "layout": { "x": 0.52, "y": 0.44 }
       },
@@ -215,6 +249,7 @@
         "index": 6,
         "order": 7,
         "label": "自我",
+        "labelEn": "Self",
         "meaning": "你此刻的态度与位置",
         "layout": { "x": 0.80, "y": 0.74 }
       },
@@ -222,6 +257,7 @@
         "index": 7,
         "order": 8,
         "label": "环境",
+        "labelEn": "Environment",
         "meaning": "外部与他人的影响",
         "layout": { "x": 0.80, "y": 0.52 }
       },
@@ -229,6 +265,7 @@
         "index": 8,
         "order": 9,
         "label": "希望与恐惧",
+        "labelEn": "Hopes & Fears",
         "meaning": "你内心的期待与担忧",
         "layout": { "x": 0.80, "y": 0.30 }
       },
@@ -236,10 +273,12 @@
         "index": 9,
         "order": 10,
         "label": "结果",
+        "labelEn": "Outcome",
         "meaning": "顺势发展的最终走向",
         "layout": { "x": 0.80, "y": 0.10 }
       }
     ],
-    "howToRead": "左侧十字呈现问题的核心：现状与挑战交叠，根基、过去、目标、未来环绕四周；右侧由下而上是你自己、外部环境、内心的希望与恐惧，直到最上方的结果。信息量大，慢慢读，先看十字再看竖列。"
+    "howToRead": "左侧十字呈现问题的核心：现状与挑战交叠，根基、过去、目标、未来环绕四周；右侧由下而上是你自己、外部环境、内心的希望与恐惧，直到最上方的结果。信息量大，慢慢读，先看十字再看竖列。",
+    "howToReadEn": "The cross on the left shows the heart of the matter: present and challenge crossed, with foundation, past, goal and future around them; the right column, bottom to top, is yourself, your environment, your hopes and fears, up to the outcome. It's a lot — take it slow: read the cross first, then the staff."
   }
 ]

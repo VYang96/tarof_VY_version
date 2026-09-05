@@ -16,6 +16,7 @@ export interface InterpretDraw {
 
 /** 一次解读的完整上下文 —— 喂给大模型的原料（PRD §5.4） */
 export interface InterpretContext {
+  locale: "zh" | "en";
   category: Category;
   categoryLabel: string;
   question: string;

@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { CARDS, getCard, getMeaning } from "@/lib/data";
+import { CARDS, getCard, getMeaning, cardName } from "@/lib/data";
 import { FlipCard } from "@/components/card/FlipCard";
 import { useDaily, dateKey } from "@/lib/store/daily";
 import { useSettings } from "@/lib/store/settings";
@@ -82,13 +82,15 @@ export default function DailyPage() {
           className="max-w-md space-y-2 rounded-xl border border-border bg-bg-elev p-5"
         >
           <div className="flex items-center justify-center gap-2">
-            <span className="font-serif text-lg text-fg">{card.name}</span>
+            <span className="font-serif text-lg text-fg">
+              {cardName(card, locale)}
+            </span>
             <span className={`text-xs ${reversed ? "text-danger" : "text-gold"}`}>
               {reversed ? t("card.reversed") : t("card.upright")}
             </span>
           </div>
           <p className="text-sm leading-relaxed text-fg-muted">
-            {getMeaning(card, "general", reversed)}
+            {getMeaning(card, "general", reversed, locale)}
           </p>
         </motion.article>
       ) : (

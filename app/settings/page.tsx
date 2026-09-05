@@ -37,8 +37,8 @@ export default function SettingsPage() {
       <Row label={t("settings.theme")}>
         <Segmented
           options={[
-            { value: "dark", label: "星空" },
-            { value: "candle", label: "烛光" },
+            { value: "dark", label: t("settings.themeDark") },
+            { value: "candle", label: t("settings.themeCandle") },
           ]}
           value={theme}
           onChange={(v) => setTheme(v as "dark" | "candle")}

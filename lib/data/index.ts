@@ -27,10 +27,46 @@ export function getSpread(id: string): Spread | undefined {
   return spreadById.get(id);
 }
 
-/** 取某张牌在指定类别下的牌义 */
-export function getMeaning(card: Card, category: Category, reversed: boolean) {
-  const m = card.meanings[category];
+/** 取某张牌在指定类别下的牌义（按语言，缺英文时回退中文） */
+export function getMeaning(
+  card: Card,
+  category: Category,
+  reversed: boolean,
+  locale: "zh" | "en" = "zh"
+) {
+  const set = locale === "en" && card.meaningsEn ? card.meaningsEn : card.meanings;
+  const m = set[category];
   return reversed ? m.reversed : m.upright;
+}
+
+/** 按语言取牌名（主标题） */
+export function cardName(card: Card, locale: "zh" | "en"): string {
+  return locale === "en" ? card.en : card.name;
+}
+
+/** 按语言取牌名副标题（另一种语言） */
+export function cardSub(card: Card, locale: "zh" | "en"): string {
+  return locale === "en" ? card.name : card.en;
+}
+
+/** 按语言取关键词 */
+export function cardKeywords(card: Card, locale: "zh" | "en"): string[] {
+  return locale === "en" && card.keywordsEn ? card.keywordsEn : card.keywords;
+}
+
+/** 按语言取牌阵名 / 读法 / 位置名 */
+export function spreadName(s: Spread, locale: "zh" | "en"): string {
+  return locale === "en" && s.nameEn ? s.nameEn : s.name;
+}
+export function spreadHowTo(s: Spread, locale: "zh" | "en"): string {
+  return locale === "en" && s.howToReadEn ? s.howToReadEn : s.howToRead;
+}
+export function positionLabel(
+  p: { label: string; labelEn?: string } | undefined,
+  locale: "zh" | "en"
+): string | undefined {
+  if (!p) return undefined;
+  return locale === "en" && p.labelEn ? p.labelEn : p.label;
 }
 
 export const CATEGORIES: { id: Category; zh: string; en: string }[] = [

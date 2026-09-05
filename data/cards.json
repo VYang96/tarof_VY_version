@@ -13,6 +13,12 @@
       "纯真",
       "可能性"
     ],
+    "keywordsEn": [
+      "Beginnings",
+      "Adventure",
+      "Innocence",
+      "Potential"
+    ],
     "meanings": {
       "general": {
         "upright": "一段全新的旅程正在展开。放下顾虑、保持好奇，此刻的天真恰是你的力量。相信直觉，迈出那一步。",
@@ -30,6 +36,24 @@
         "upright": "财务上愿意尝试新方式，小额试水未尝不可。保持轻盈，但记得留有退路。",
         "reversed": "花钱随性、缺乏规划，容易失控。先算清账，再谈冒险。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "A brand-new journey is opening. Set worries down and stay curious — your innocence is your strength. Trust your gut and take the step.",
+        "reversed": "You may be reckless, or too afraid of the unknown to begin. Look before you leap."
+      },
+      "love": {
+        "upright": "A fresh spark appears; meet it with an open heart, and don't box this moment in with old stories.",
+        "reversed": "Some naivety or avoidance — dodging commitment or ignoring real signals. Be honest about what you want."
+      },
+      "career": {
+        "upright": "Good for starting something new or switching tracks; the unknown holds opportunity. Explore with a beginner's mind.",
+        "reversed": "Acting before the plan is ready invites a stumble. Prepare a little more."
+      },
+      "wealth": {
+        "upright": "Open to trying a new approach; a small test is fine. Stay light, but keep an exit.",
+        "reversed": "Spending on impulse without a plan gets out of hand. Do the math first."
+      }
     }
   },
   {
@@ -45,6 +69,12 @@
       "创造",
       "资源",
       "专注"
+    ],
+    "keywordsEn": [
+      "Action",
+      "Creation",
+      "Resources",
+      "Focus"
     ],
     "meanings": {
       "general": {
@@ -63,6 +93,24 @@
         "upright": "你有把机会变现的能力，主动规划就能看到成效。",
         "reversed": "计划华而不实，或被表象诱惑。核实每一笔再行动。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "You already hold every tool you need; the key is turning intention into action. Focus — you're the one who makes it happen.",
+        "reversed": "Ideas without action, or talent aimed the wrong way. Stop talking, and don't use skill to manipulate."
+      },
+      "love": {
+        "upright": "You can actively create the relationship you want; sincere expression will be met. Take initiative.",
+        "reversed": "Words and actions don't match, or something's hidden. Align your heart with your deeds."
+      },
+      "career": {
+        "upright": "Skills, contacts and timing are in place — a fine time to make ideas real. Make your move.",
+        "reversed": "Resources aren't used where they matter, or it's all packaging. Return to what truly counts."
+      },
+      "wealth": {
+        "upright": "You can turn opportunity into gain; plan actively and results will show.",
+        "reversed": "A flashy but hollow plan, or lured by appearances. Verify every figure first."
+      }
     }
   },
   {
@@ -78,6 +126,12 @@
       "潜意识",
       "静观",
       "秘密"
+    ],
+    "keywordsEn": [
+      "Intuition",
+      "The unconscious",
+      "Stillness",
+      "Secrets"
     ],
     "meanings": {
       "general": {
@@ -96,6 +150,24 @@
         "upright": "财务决策宜谨慎、多观察，直觉会提醒你哪里不对劲。",
         "reversed": "对财务状况了解不清，或刻意回避。翻开账本，正视它。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The answer isn't outside but deep within. Be still, listen to intuition, and let it surface.",
+        "reversed": "You may be ignoring your inner voice or misled by the surface. Slow down and reconnect."
+      },
+      "love": {
+        "upright": "Something is unspoken; feeling it quietly is wiser than pressing. Trust your intuition.",
+        "reversed": "Suppressed feelings or things hidden from each other breed misunderstanding. Give emotion an outlet."
+      },
+      "career": {
+        "upright": "Some things are still brewing; no need to show your hand. Observe — the timing isn't ripe.",
+        "reversed": "You ignored a doubt, or the information isn't transparent. Verify before you're convinced."
+      },
+      "wealth": {
+        "upright": "Be cautious and observant with money; intuition flags what's off.",
+        "reversed": "Unclear about your finances, or avoiding them. Open the books and face it."
+      }
     }
   },
   {
@@ -111,6 +183,12 @@
       "滋养",
       "创造力",
       "感性"
+    ],
+    "keywordsEn": [
+      "Abundance",
+      "Nurture",
+      "Creativity",
+      "Sensuality"
     ],
     "meanings": {
       "general": {
@@ -129,6 +207,24 @@
         "upright": "财务趋于富足稳定，适合投资于能长期滋养你的事物。",
         "reversed": "过度消费于享乐，或理财上缺乏节制。分清想要与需要。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Life is abundant — a good time to nurture, whether a bond, a work, or yourself. Enjoy the fullness.",
+        "reversed": "Overgiving while neglecting yourself, or blocked creativity. Care for yourself first."
+      },
+      "love": {
+        "upright": "Warm, nourishing love; tend it and care for each other. Affection will grow.",
+        "reversed": "Giving and taking are unbalanced, or control wears the mask of love. Return to equality and ease."
+      },
+      "career": {
+        "upright": "Creativity and cooperation bear fruit; let the project grow slowly. Tending it pays off.",
+        "reversed": "Much effort, little growth, or you're skipping rest. Don't let yourself run dry."
+      },
+      "wealth": {
+        "upright": "Finances trend comfortable and steady; invest in what nourishes you long-term.",
+        "reversed": "Overspending on pleasure or a lack of restraint. Separate want from need."
+      }
     }
   },
   {
@@ -144,6 +240,12 @@
       "权威",
       "结构",
       "掌控"
+    ],
+    "keywordsEn": [
+      "Order",
+      "Authority",
+      "Structure",
+      "Control"
     ],
     "meanings": {
       "general": {
@@ -162,6 +264,24 @@
         "upright": "以纪律和规划管理财务，稳健是此刻的关键词。",
         "reversed": "过度控制或死板，错过灵活的机会。留一点余地。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Time to build order and take responsibility. Frame the situation with reason and discipline; stability follows.",
+        "reversed": "Too rigid or controlling, losing flexibility — or dodging the responsibility you should carry. Balance firmness with give."
+      },
+      "love": {
+        "upright": "The relationship needs stability and commitment; clear boundaries bring security.",
+        "reversed": "One side too forceful or stubborn, making things stiff. Listen more and loosen up."
+      },
+      "career": {
+        "upright": "Good for planning and taking the lead; a structured push works.",
+        "reversed": "Over-managing or autocratic, so the team can't shine. Delegate a little."
+      },
+      "wealth": {
+        "upright": "Manage money with discipline and planning; steady is the word.",
+        "reversed": "Too controlling or rigid, missing flexible chances. Leave some room."
+      }
     }
   },
   {
@@ -177,6 +297,12 @@
       "信念",
       "指引",
       "归属"
+    ],
+    "keywordsEn": [
+      "Tradition",
+      "Belief",
+      "Guidance",
+      "Belonging"
     ],
     "meanings": {
       "general": {
@@ -195,6 +321,24 @@
         "upright": "采用稳妥、传统的理财方式更安全。",
         "reversed": "盲从建议或墨守成规，未必适合你。独立判断。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Following a proven path and asking someone trustworthy will steady you; tradition and rules are allies now.",
+        "reversed": "The old framework no longer fits — time to walk your own way. Don't be bound by convention."
+      },
+      "love": {
+        "upright": "Toward stability and commitment; traditional forms bring reassurance.",
+        "reversed": "Unwilling to be bound by convention, or values diverge. Be true to your own rhythm."
+      },
+      "career": {
+        "upright": "Playing by the rules within the system pays; also good for finding a mentor.",
+        "reversed": "The system limits you, or you disagree with the mainstream. Unconventional paths are open."
+      },
+      "wealth": {
+        "upright": "Safer to use steady, conventional money methods.",
+        "reversed": "Blindly following advice or old habits may not suit you. Judge for yourself."
+      }
     }
   },
   {
@@ -210,6 +354,12 @@
       "选择",
       "价值观",
       "和谐"
+    ],
+    "keywordsEn": [
+      "Union",
+      "Choice",
+      "Values",
+      "Harmony"
     ],
     "meanings": {
       "general": {
@@ -228,6 +378,24 @@
         "upright": "财务选择宜以长期价值为准，合作能带来共赢。",
         "reversed": "在诱惑与理智间摇摆，容易做出后悔的决定。三思而行。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "An important choice of the heart is before you. Choose true to your values and harmony follows.",
+        "reversed": "Clashing values or an off-balance choice; you're not of one mind. Get clear on what you truly value."
+      },
+      "love": {
+        "upright": "A deep connection and attraction, toward real fit. You may face a choice about commitment.",
+        "reversed": "Imbalance, poor communication, or wavering before temptation. Be honest with each other."
+      },
+      "career": {
+        "upright": "An important decision or partnership; choose the direction aligned with your values.",
+        "reversed": "A partnership hits friction, or you hesitate to choose. Don't betray your heart."
+      },
+      "wealth": {
+        "upright": "Base money choices on long-term value; cooperation can be win-win.",
+        "reversed": "Swinging between temptation and reason invites regret. Think twice."
+      }
     }
   },
   {
@@ -243,6 +411,12 @@
       "前进",
       "掌控",
       "胜利"
+    ],
+    "keywordsEn": [
+      "Will",
+      "Advance",
+      "Control",
+      "Victory"
     ],
     "meanings": {
       "general": {
@@ -261,6 +435,24 @@
         "upright": "以坚定的计划推进财务目标，自律带来成果。",
         "reversed": "财务方向摇摆或用力过猛，容易翻车。稳住阵脚。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "With resolve and self-discipline you can steer opposing forces toward your goal. Focus your direction — victory is near.",
+        "reversed": "Unclear direction or inner tug-of-war cancels your force. Unify your intention first."
+      },
+      "love": {
+        "upright": "The relationship moves forward on your initiative; a step further after clearing an obstacle.",
+        "reversed": "Out of control or misaligned; pushing hard only stiffens it. Steady yourself first."
+      },
+      "career": {
+        "upright": "An all-out sprint breaks through; control the pace and you'll take the goal.",
+        "reversed": "Scattered goals, low drive, progress stalls. Gather your focus."
+      },
+      "wealth": {
+        "upright": "Push financial goals with a firm plan; discipline pays.",
+        "reversed": "Wobbly direction or too much force can crash. Hold steady."
+      }
     }
   },
   {
@@ -276,6 +468,12 @@
       "柔韧",
       "内在力量",
       "耐心"
+    ],
+    "keywordsEn": [
+      "Courage",
+      "Gentleness",
+      "Inner power",
+      "Patience"
     ],
     "meanings": {
       "general": {
@@ -294,6 +492,24 @@
         "upright": "以冷静和耐心管理财务，不被情绪牵着走。",
         "reversed": "冲动消费或焦虑决策，容易失衡。缓一缓。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "True strength is gentle, steady self-mastery. Tame inner restlessness with patience and love — you're stronger than you think.",
+        "reversed": "Self-doubt or runaway emotion drains your power inward. Be kind to yourself first."
+      },
+      "love": {
+        "upright": "Tend the bond with tolerance and patience; gentle persistence beats force.",
+        "reversed": "Insecurity or emotion in the driver's seat wears the relationship out. Find your inner steadiness."
+      },
+      "career": {
+        "upright": "Face challenges with composure and resilience; soft-yet-firm wins the day.",
+        "reversed": "Under pressure you lose patience or confidence, and it shows. Reset your mindset."
+      },
+      "wealth": {
+        "upright": "Manage money calmly and patiently; don't be led by emotion.",
+        "reversed": "Impulsive spending or anxious decisions unbalance things. Take a breath."
+      }
     }
   },
   {
@@ -309,6 +525,12 @@
       "独处",
       "指引",
       "追寻"
+    ],
+    "keywordsEn": [
+      "Introspection",
+      "Solitude",
+      "Guidance",
+      "Seeking"
     ],
     "meanings": {
       "general": {
@@ -327,6 +549,24 @@
         "upright": "冷静独立地审视财务，不受外界噪音干扰。",
         "reversed": "在财务上过度谨慎或回避，错失时机。适度行动。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Withdraw inward; solitude brings clear insight. The answer comes from seeking within, not outer noise.",
+        "reversed": "Over-isolating or avoiding reality — or refusing guidance you should accept. Don't shut yourself away too tightly."
+      },
+      "love": {
+        "upright": "You need some space to see the relationship clearly, or you meet a more mature bond in the quiet.",
+        "reversed": "Too closed off or distant, letting things cool. Open up a little."
+      },
+      "career": {
+        "upright": "Good for independent study and deepening expertise; a calm mind finds the way.",
+        "reversed": "Working in a vacuum or out of step with the team stalls progress. Come out and connect."
+      },
+      "wealth": {
+        "upright": "Review finances calmly and independently, free of outside noise.",
+        "reversed": "Too cautious or avoidant with money, missing the moment. Act in measure."
+      }
     }
   },
   {
@@ -342,6 +582,12 @@
       "周期",
       "机运",
       "变化"
+    ],
+    "keywordsEn": [
+      "Turning point",
+      "Cycles",
+      "Fortune",
+      "Change"
     ],
     "meanings": {
       "general": {
@@ -360,6 +606,24 @@
         "upright": "财运出现向上的转机，顺势布局。",
         "reversed": "财务波动难料，避免在低谷时做重大决定。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The wheel turns; a turning point is coming. Move with the rhythm of change and catch this upward swing.",
+        "reversed": "Fortune dips or you're stuck in a loop. Don't resist — adjust, then flow with it."
+      },
+      "love": {
+        "upright": "A turn in the relationship; letting it unfold naturally brings surprising progress.",
+        "reversed": "Ups and downs, or repeating old patterns; break the loop."
+      },
+      "career": {
+        "upright": "A window of opportunity opens; seizing the timing brings a leap.",
+        "reversed": "Outside variables disrupt the plan and throw off your pace. Stay flexible."
+      },
+      "wealth": {
+        "upright": "An upward turn in fortune; position yourself with the trend.",
+        "reversed": "Finances are hard to predict; avoid big decisions at the low point."
+      }
     }
   },
   {
@@ -375,6 +639,12 @@
       "因果",
       "责任",
       "平衡"
+    ],
+    "keywordsEn": [
+      "Fairness",
+      "Cause & effect",
+      "Responsibility",
+      "Balance"
     ],
     "meanings": {
       "general": {
@@ -393,6 +663,24 @@
         "upright": "财务上宜合规、清晰，权衡后再定。",
         "reversed": "账目不清或决策草率，埋下隐患。理清再说。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Everything runs on cause, effect and balance; decide honestly and responsibly now. You reap what you sow.",
+        "reversed": "Dodging responsibility or being unfair; your conscience isn't clear. Face the truth and own your choices."
+      },
+      "love": {
+        "upright": "The relationship needs fairness and candor; problems resolve only when laid on the table.",
+        "reversed": "Responsibilities are unevenly shared, or something's hidden; imbalance follows. Be honest."
+      },
+      "career": {
+        "upright": "Handle matters fairly and methodically; contracts and decisions turn out well.",
+        "reversed": "There's unfairness or an oversight; check carefully. Don't count on luck."
+      },
+      "wealth": {
+        "upright": "Keep money matters compliant and clear; weigh before deciding.",
+        "reversed": "Muddled accounts or hasty decisions plant trouble. Sort it out first."
+      }
     }
   },
   {
@@ -408,6 +696,12 @@
       "换位",
       "臣服",
       "洞察"
+    ],
+    "keywordsEn": [
+      "Pause",
+      "Perspective",
+      "Surrender",
+      "Insight"
     ],
     "meanings": {
       "general": {
@@ -426,6 +720,24 @@
         "upright": "暂时按兵不动，换个思路看财务会更清晰。",
         "reversed": "犹豫不决错失时机，或死守亏损。及时止损。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "A deliberate pause brings a new angle. Let go of attachment, shift your view, and the stuck situation opens up.",
+        "reversed": "Pointless delay or sacrifice, stuck in place and unwilling to shift. Release what should be released; move what should move."
+      },
+      "love": {
+        "upright": "Retreat to advance; setting expectations down loosens the bond. See it from their side.",
+        "reversed": "Over-sacrificing or a stubborn standoff — both lose. Rebalance."
+      },
+      "career": {
+        "upright": "Pause and reassess; you'll spot a better path.",
+        "reversed": "Endless indecision or gridlock just drains you. Make the call."
+      },
+      "wealth": {
+        "upright": "Hold still for now; a new angle makes your finances clearer.",
+        "reversed": "Indecision misses the moment, or you cling to a loss. Cut it in time."
+      }
     }
   },
   {
@@ -441,6 +753,12 @@
       "转化",
       "放下",
       "重生"
+    ],
+    "keywordsEn": [
+      "Endings",
+      "Transformation",
+      "Letting go",
+      "Rebirth"
     ],
     "meanings": {
       "general": {
@@ -459,6 +777,24 @@
         "upright": "财务模式面临重整，结束无效的方式才能重生。",
         "reversed": "不愿改变旧有的财务习惯，问题拖延累积。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "A phase reaches its end; only by letting go can new life come. Don't fear endings — they're the path of transformation.",
+        "reversed": "Resisting an inevitable ending, clinging to the past and stalling. Let go to move on."
+      },
+      "love": {
+        "upright": "The relationship goes through deep change; the end of an old pattern buys a truer connection.",
+        "reversed": "Unwilling to release a finished love, or dragging on out of fear of change. Give each other freedom."
+      },
+      "career": {
+        "upright": "The old wraps up; a pivot or transition brings new chances.",
+        "reversed": "Resisting change and clinging to old ways lets the chance slip. Move with the trend."
+      },
+      "wealth": {
+        "upright": "Financial patterns face a reset; ending what doesn't work allows rebirth.",
+        "reversed": "Unwilling to change old money habits; problems drag and pile up."
+      }
     }
   },
   {
@@ -474,6 +810,12 @@
       "调和",
       "耐心",
       "中道"
+    ],
+    "keywordsEn": [
+      "Balance",
+      "Blending",
+      "Patience",
+      "The middle way"
     ],
     "meanings": {
       "general": {
@@ -492,6 +834,24 @@
         "upright": "量入为出、稳步积累，财务趋于平衡。",
         "reversed": "收支失衡或过度冒进，需节制。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Blend opposing forces with patience and find your middle way. Unhurried and just-right is the wisdom.",
+        "reversed": "Imbalance or excess — you've gone to an extreme. Find your rhythm and proportion again."
+      },
+      "love": {
+        "upright": "The bond harmonizes through mutual adjustment; patient tending lasts longer.",
+        "reversed": "Out-of-sync steps or impatience cause friction. Slow the run-in."
+      },
+      "career": {
+        "upright": "Balance the sides and proceed step by step; you'll reach the goal steadily.",
+        "reversed": "Too much force or unbalanced resources dull efficiency. Recalibrate."
+      },
+      "wealth": {
+        "upright": "Live within your means and build steadily; finances come into balance.",
+        "reversed": "Income and outgo are unbalanced, or you're rushing in. Show restraint."
+      }
     }
   },
   {
@@ -507,6 +867,12 @@
       "欲望",
       "执着",
       "阴影"
+    ],
+    "keywordsEn": [
+      "Bondage",
+      "Desire",
+      "Attachment",
+      "Shadow"
     ],
     "meanings": {
       "general": {
@@ -525,6 +891,24 @@
         "upright": "受物欲或短期诱惑驱使，警惕债务或过度消费。",
         "reversed": "开始摆脱财务的枷锁，走向自律。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "You may be caught by desire, habit, or a certain bond. See that the chain is often self-made — you can unbind it anytime.",
+        "reversed": "You're breaking free, waking from an old attachment. The release is hard, but the direction is right."
+      },
+      "love": {
+        "upright": "Strong attraction, but perhaps laced with possession or dependence. Tell love apart from clinging.",
+        "reversed": "Beginning to shed an unhealthy pattern and reclaim your freedom."
+      },
+      "career": {
+        "upright": "Compromising for material gain, or bound to the job; beware losing autonomy.",
+        "reversed": "Stepping out of a suffocating situation and taking back your choice."
+      },
+      "wealth": {
+        "upright": "Driven by materialism or short-term temptation; beware debt or overspending.",
+        "reversed": "Beginning to break the money chains and move toward discipline."
+      }
     }
   },
   {
@@ -540,6 +924,12 @@
       "突变",
       "觉醒",
       "释放"
+    ],
+    "keywordsEn": [
+      "Collapse",
+      "Upheaval",
+      "Awakening",
+      "Release"
     ],
     "meanings": {
       "general": {
@@ -558,6 +948,24 @@
         "upright": "财务遭遇突变，及时应对反而止损重建。",
         "reversed": "回避财务危机，问题只会越滚越大。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "An old structure crashes down — sudden, yet it clears a false foundation. Break to rebuild; the truth sets you free.",
+        "reversed": "Barely propping up a teetering situation, or delaying an inevitable collapse. Better a short pain than a long one."
+      },
+      "love": {
+        "upright": "The relationship goes through a violent shake; truth surfaces. Rupture or turning point, both are new starts.",
+        "reversed": "Resisting a necessary break; forcing it to hold only hurts more."
+      },
+      "career": {
+        "upright": "A sudden shock upends the plan — yet forces a new direction out.",
+        "reversed": "The crisis is pressed down for now, but the hazard remains. Face the problem."
+      },
+      "wealth": {
+        "upright": "Finances hit an upheaval; a timely response stops the loss and rebuilds.",
+        "reversed": "Avoiding a money crisis only lets it snowball."
+      }
     }
   },
   {
@@ -573,6 +981,12 @@
       "疗愈",
       "指引",
       "宁静"
+    ],
+    "keywordsEn": [
+      "Hope",
+      "Healing",
+      "Guidance",
+      "Serenity"
     ],
     "meanings": {
       "general": {
@@ -591,6 +1005,24 @@
         "upright": "财务前景转好，乐观而理性地规划未来。",
         "reversed": "对财务缺乏信心或过度悲观，稳住心态。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "After the storm, the light of hope returns. Heal, trust the future — a serene faith guides you on.",
+        "reversed": "Losing faith in the future or feeling lost; clouds cover the light. Rekindle hope."
+      },
+      "love": {
+        "upright": "The bond enters a phase of healing and nourishment; sincerity brings calm and hope.",
+        "reversed": "Feeling let down or low on faith; it needs time to mend. Don't give up hope."
+      },
+      "career": {
+        "upright": "A clear vision appears; carry hope forward and you'll be guided.",
+        "reversed": "Feeling lost or disheartened about direction. Reclaim your faith."
+      },
+      "wealth": {
+        "upright": "The financial outlook brightens; plan the future with optimism and reason.",
+        "reversed": "Low confidence or over-pessimism about money. Steady your mindset."
+      }
     }
   },
   {
@@ -606,6 +1038,12 @@
       "潜意识",
       "不安",
       "直觉"
+    ],
+    "keywordsEn": [
+      "Illusion",
+      "The unconscious",
+      "Unease",
+      "Intuition"
     ],
     "meanings": {
       "general": {
@@ -624,6 +1062,24 @@
         "upright": "财务状况不透明，警惕看不清的风险。",
         "reversed": "迷雾散去，财务问题的根源逐渐明朗。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Things aren't clear yet; fear and illusion magnify easily. Don't be led by the emotional fog — let intuition carry you through the night.",
+        "reversed": "The fog begins to lift, truth grows clearer, and unease recedes."
+      },
+      "love": {
+        "upright": "Unnamed doubts or misunderstanding; don't rush to conclusions. Listen to intuition.",
+        "reversed": "Misreadings clear up; hidden feelings surface and are released."
+      },
+      "career": {
+        "upright": "Info is unclear or currents run beneath; act carefully and don't decide on guesses.",
+        "reversed": "Truth surfaces, confusion dissolves — you can see the way now."
+      },
+      "wealth": {
+        "upright": "Finances are opaque; beware risks you can't see clearly.",
+        "reversed": "The fog clears and the root of the money problem grows plain."
+      }
     }
   },
   {
@@ -639,6 +1095,12 @@
       "成功",
       "活力",
       "清晰"
+    ],
+    "keywordsEn": [
+      "Joy",
+      "Success",
+      "Vitality",
+      "Clarity"
     ],
     "meanings": {
       "general": {
@@ -657,6 +1119,24 @@
         "upright": "财务明朗、收获在望，光明磊落地经营。",
         "reversed": "对财务过度乐观，留意隐藏的支出。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Sunlight everywhere; joy and success follow. All is clear and full of life — let your light shine freely.",
+        "reversed": "Joy is briefly veiled, or optimism overlooks reality. The light is still there — part the clouds."
+      },
+      "love": {
+        "upright": "A warm, bright relationship, full of sincere joy and vitality.",
+        "reversed": "The glow dims for now, or surface cheer hides a problem. Return to sincerity."
+      },
+      "career": {
+        "upright": "Results show and recognition comes — a great time to shine.",
+        "reversed": "Success comes a bit slower, or confidence takes a knock. Don't rush; the light returns."
+      },
+      "wealth": {
+        "upright": "Finances are bright and gains in sight; earn openly and honestly.",
+        "reversed": "Over-optimistic about money; watch for hidden expenses."
+      }
     }
   },
   {
@@ -672,6 +1152,12 @@
       "召唤",
       "清算",
       "重生"
+    ],
+    "keywordsEn": [
+      "Awakening",
+      "Calling",
+      "Reckoning",
+      "Rebirth"
     ],
     "meanings": {
       "general": {
@@ -690,6 +1176,24 @@
         "upright": "全面复盘财务，重整旗鼓迎来新局。",
         "reversed": "回避财务清算，旧问题悬而未决。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "An inner awakening — you review the past and answer a higher calling. Set judgment down and greet your reborn self.",
+        "reversed": "Too much self-criticism, or long unwilling to face things, missing the moment to awaken. Listen to the inner call."
+      },
+      "love": {
+        "upright": "The relationship reaches a reckoning and reconciliation; forgiveness offers a chance at rebirth.",
+        "reversed": "Stuck in old scores or regret, hard to turn the page. Learn to let go."
+      },
+      "career": {
+        "upright": "Reassess your direction; a change or comeback is right on time.",
+        "reversed": "Indecision or self-doubt lets a chance for change slip by."
+      },
+      "wealth": {
+        "upright": "Review finances fully, regroup and greet a new phase.",
+        "reversed": "Avoiding a financial reckoning leaves old problems unresolved."
+      }
     }
   },
   {
@@ -705,6 +1209,12 @@
       "完成",
       "整合",
       "成就"
+    ],
+    "keywordsEn": [
+      "Completion",
+      "Fulfillment",
+      "Integration",
+      "Achievement"
     ],
     "meanings": {
       "general": {
@@ -723,6 +1233,24 @@
         "upright": "财务目标达成，进入丰盈稳定的阶段。",
         "reversed": "距目标仅一步之遥，坚持到底。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "A cycle closes in fullness; you've reached a whole. Celebrate the achievement, and get ready for the next journey.",
+        "reversed": "Near completion but stuck on the last step, or a piece is missing. Fill it in and it's whole."
+      },
+      "love": {
+        "upright": "The relationship reaches fullness and stability; you're wholly together.",
+        "reversed": "The bond is a step short of arriving; there's still unfinished work."
+      },
+      "career": {
+        "upright": "The project completes in full, bringing recognition and a sense of achievement.",
+        "reversed": "The final step is undone; wrap it up. Don't quit halfway."
+      },
+      "wealth": {
+        "upright": "Financial goals are met, entering an abundant, stable phase.",
+        "reversed": "Just a step from the goal — see it through."
+      }
     }
   },
   {
@@ -737,6 +1265,11 @@
       "权杖",
       "王牌",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Ace",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -755,6 +1288,24 @@
         "upright": "在投入与开拓方面，全新能量的种子，一个纯粹而充满潜力的开端（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，开端受阻或机会尚未把握，能量还未落地（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The seed of fresh, pure potential — a promising beginning. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "The opening is blocked or the chance not yet grasped; the energy hasn't landed. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, the seed of fresh, pure potential — a promising beginning (the Fire energy of Wands).",
+        "reversed": "In passion and drive, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, the seed of fresh, pure potential — a promising beginning (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, the seed of fresh, pure potential — a promising beginning (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -769,6 +1320,11 @@
       "权杖",
       "二",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Two",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -787,6 +1343,24 @@
         "upright": "在投入与开拓方面，平衡与选择，两股力量之间的协调与初步决定（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，失衡或犹豫，难以取舍（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Balance and choice, coordinating two forces and an early decision. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Imbalance or hesitation, hard to choose. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, balance and choice, coordinating two forces and an early decision (the Fire energy of Wands).",
+        "reversed": "In passion and drive, imbalance or hesitation, hard to choose (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, balance and choice, coordinating two forces and an early decision (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, imbalance or hesitation, hard to choose (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, balance and choice, coordinating two forces and an early decision (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, imbalance or hesitation, hard to choose (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -801,6 +1375,11 @@
       "权杖",
       "三",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Three",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -819,6 +1398,24 @@
         "upright": "在投入与开拓方面，初步的成长与合作，努力开始显现成果（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，协作不顺或进展停滞，成果延迟（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Early growth and cooperation, effort starting to show. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Collaboration stalls or progress is delayed. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, early growth and cooperation, effort starting to show (the Fire energy of Wands).",
+        "reversed": "In passion and drive, collaboration stalls or progress is delayed (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, early growth and cooperation, effort starting to show (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, collaboration stalls or progress is delayed (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, early growth and cooperation, effort starting to show (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, collaboration stalls or progress is delayed (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -833,6 +1430,11 @@
       "权杖",
       "四",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Four",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -851,6 +1453,24 @@
         "upright": "在投入与开拓方面，稳固与休整，把已有的基础守好（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，过度保守或停滞，也可能是根基松动（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Stability and consolidation, guarding what you have built. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Over-caution or stagnation, or shaky foundations. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, stability and consolidation, guarding what you have built (the Fire energy of Wands).",
+        "reversed": "In passion and drive, over-caution or stagnation, or shaky foundations (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, stability and consolidation, guarding what you have built (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, over-caution or stagnation, or shaky foundations (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, stability and consolidation, guarding what you have built (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, over-caution or stagnation, or shaky foundations (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -865,6 +1485,11 @@
       "权杖",
       "五",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Five",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -883,6 +1508,24 @@
         "upright": "在投入与开拓方面，冲突与考验，遇到挑战与失落（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，冲突缓和或从挫折中走出（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Conflict and testing, meeting challenge and loss. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "The conflict eases, or you climb out of a setback. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, conflict and testing, meeting challenge and loss (the Fire energy of Wands).",
+        "reversed": "In passion and drive, the conflict eases, or you climb out of a setback (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, conflict and testing, meeting challenge and loss (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, the conflict eases, or you climb out of a setback (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, conflict and testing, meeting challenge and loss (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, the conflict eases, or you climb out of a setback (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -897,6 +1540,11 @@
       "权杖",
       "六",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Six",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -915,6 +1563,24 @@
         "upright": "在投入与开拓方面，和谐与回馈，付出与收获趋于平衡（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，失衡或旧问题重现，回馈受阻（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Harmony and reward, giving and receiving in balance. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Imbalance or old problems resurfacing; reward is blocked. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, harmony and reward, giving and receiving in balance (the Fire energy of Wands).",
+        "reversed": "In passion and drive, imbalance or old problems resurfacing; reward is blocked (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, harmony and reward, giving and receiving in balance (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, imbalance or old problems resurfacing; reward is blocked (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, harmony and reward, giving and receiving in balance (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, imbalance or old problems resurfacing; reward is blocked (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -929,6 +1595,11 @@
       "权杖",
       "七",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Seven",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -947,6 +1618,24 @@
         "upright": "在投入与开拓方面，考验耐心与坚持，需要评估与取舍（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，分心、拖延或努力方向偏差（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "A test of patience and persistence, needing assessment and choice. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Distraction, delay or misdirected effort. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, a test of patience and persistence, needing assessment and choice (the Fire energy of Wands).",
+        "reversed": "In passion and drive, distraction, delay or misdirected effort (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, a test of patience and persistence, needing assessment and choice (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, distraction, delay or misdirected effort (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, a test of patience and persistence, needing assessment and choice (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, distraction, delay or misdirected effort (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -961,6 +1650,11 @@
       "权杖",
       "八",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Eight",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -979,6 +1673,24 @@
         "upright": "在投入与开拓方面，专注投入带来进展，勤勉推动局面（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，过劳、停滞或用力过猛（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Focused effort driving progress; diligence moves things forward. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Overwork, stagnation, or too much force. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, focused effort driving progress; diligence moves things forward (the Fire energy of Wands).",
+        "reversed": "In passion and drive, overwork, stagnation, or too much force (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, focused effort driving progress; diligence moves things forward (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, overwork, stagnation, or too much force (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, focused effort driving progress; diligence moves things forward (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, overwork, stagnation, or too much force (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -993,6 +1705,11 @@
       "权杖",
       "九",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Nine",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -1011,6 +1728,24 @@
         "upright": "在投入与开拓方面，接近成果，坚持后的收获在望（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，焦虑或独木难支，成果差临门一脚（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Near the result, the harvest of persistence in sight. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Anxiety or going it alone; results fall just short. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, near the result, the harvest of persistence in sight (the Fire energy of Wands).",
+        "reversed": "In passion and drive, anxiety or going it alone; results fall just short (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, near the result, the harvest of persistence in sight (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, anxiety or going it alone; results fall just short (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, near the result, the harvest of persistence in sight (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, anxiety or going it alone; results fall just short (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -1025,6 +1760,11 @@
       "权杖",
       "十",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Ten",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -1043,6 +1783,24 @@
         "upright": "在投入与开拓方面，一个循环的圆满与完成，也是新阶段的起点（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，重担或收尾不顺，圆满受阻（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The fullness and completion of a cycle, and a new beginning. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Burden or a rough finish; completion is blocked. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, the fullness and completion of a cycle, and a new beginning (the Fire energy of Wands).",
+        "reversed": "In passion and drive, burden or a rough finish; completion is blocked (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, the fullness and completion of a cycle, and a new beginning (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, burden or a rough finish; completion is blocked (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, the fullness and completion of a cycle, and a new beginning (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, burden or a rough finish; completion is blocked (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -1057,6 +1815,11 @@
       "权杖",
       "侍从",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Page",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -1075,6 +1838,24 @@
         "upright": "在投入与开拓方面，好奇与学习的新手能量，带着热忱去尝试与探索（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，不成熟或三分钟热度，行动缺乏根基（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The curious, learning energy of a beginner, trying and exploring with heart. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Immaturity or a fleeting spark; action without grounding. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, the curious, learning energy of a beginner, trying and exploring with heart (the Fire energy of Wands).",
+        "reversed": "In passion and drive, immaturity or a fleeting spark; action without grounding (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, the curious, learning energy of a beginner, trying and exploring with heart (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, immaturity or a fleeting spark; action without grounding (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, the curious, learning energy of a beginner, trying and exploring with heart (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, immaturity or a fleeting spark; action without grounding (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -1089,6 +1870,11 @@
       "权杖",
       "骑士",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Knight",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -1107,6 +1893,24 @@
         "upright": "在投入与开拓方面，行动派的推进力量，勇往直前追求目标（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，冲动或方向不稳，用力过猛（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The driving force of action, charging ahead toward a goal. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Impulsiveness or unsteady direction; too much force. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, the driving force of action, charging ahead toward a goal (the Fire energy of Wands).",
+        "reversed": "In passion and drive, impulsiveness or unsteady direction; too much force (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, the driving force of action, charging ahead toward a goal (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, impulsiveness or unsteady direction; too much force (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, the driving force of action, charging ahead toward a goal (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, impulsiveness or unsteady direction; too much force (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -1121,6 +1925,11 @@
       "权杖",
       "皇后",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "Queen",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -1139,6 +1948,24 @@
         "upright": "在投入与开拓方面，成熟而内敛地掌握此花色的能量，以包容与智慧滋养（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，情绪化或掌控失衡，能量向内耗散（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Mastering this suit's energy inwardly, nurturing with warmth and wisdom. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Emotional or unbalanced control; the energy drains inward. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Fire energy of Wands).",
+        "reversed": "In passion and drive, emotional or unbalanced control; the energy drains inward (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, emotional or unbalanced control; the energy drains inward (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, emotional or unbalanced control; the energy drains inward (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -1153,6 +1980,11 @@
       "权杖",
       "国王",
       "火"
+    ],
+    "keywordsEn": [
+      "Wands",
+      "King",
+      "Fire"
     ],
     "meanings": {
       "general": {
@@ -1171,6 +2003,24 @@
         "upright": "在投入与开拓方面，成熟而权威地驾驭此花色的能量，以远见与担当主导（权杖的火元素能量）。",
         "reversed": "在投入与开拓方面，专断或失控，权威被滥用（权杖的火元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Mastering this suit's energy with authority, leading with vision and responsibility. The theme of passion, action, creativity and will surfaces in your life.",
+        "reversed": "Domineering or out of control; authority misused. Watch for imbalance around passion, action, creativity and will."
+      },
+      "love": {
+        "upright": "In passion and drive, mastering this suit's energy with authority, leading with vision and responsibility (the Fire energy of Wands).",
+        "reversed": "In passion and drive, domineering or out of control; authority misused (the Fire energy of Wands)."
+      },
+      "career": {
+        "upright": "In ambition and momentum, mastering this suit's energy with authority, leading with vision and responsibility (the Fire energy of Wands).",
+        "reversed": "In ambition and momentum, domineering or out of control; authority misused (the Fire energy of Wands)."
+      },
+      "wealth": {
+        "upright": "In initiative and enterprise, mastering this suit's energy with authority, leading with vision and responsibility (the Fire energy of Wands).",
+        "reversed": "In initiative and enterprise, domineering or out of control; authority misused (the Fire energy of Wands)."
+      }
     }
   },
   {
@@ -1185,6 +2035,11 @@
       "圣杯",
       "王牌",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Ace",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1203,6 +2058,24 @@
         "upright": "在价值与满足感方面，全新能量的种子，一个纯粹而充满潜力的开端（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，开端受阻或机会尚未把握，能量还未落地（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The seed of fresh, pure potential — a promising beginning. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "The opening is blocked or the chance not yet grasped; the energy hasn't landed. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, the seed of fresh, pure potential — a promising beginning (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, the seed of fresh, pure potential — a promising beginning (the Water energy of Cups).",
+        "reversed": "In people and feelings, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, the seed of fresh, pure potential — a promising beginning (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1217,6 +2090,11 @@
       "圣杯",
       "二",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Two",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1235,6 +2113,24 @@
         "upright": "在价值与满足感方面，平衡与选择，两股力量之间的协调与初步决定（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，失衡或犹豫，难以取舍（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Balance and choice, coordinating two forces and an early decision. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Imbalance or hesitation, hard to choose. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, balance and choice, coordinating two forces and an early decision (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, imbalance or hesitation, hard to choose (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, balance and choice, coordinating two forces and an early decision (the Water energy of Cups).",
+        "reversed": "In people and feelings, imbalance or hesitation, hard to choose (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, balance and choice, coordinating two forces and an early decision (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, imbalance or hesitation, hard to choose (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1249,6 +2145,11 @@
       "圣杯",
       "三",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Three",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1267,6 +2168,24 @@
         "upright": "在价值与满足感方面，初步的成长与合作，努力开始显现成果（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，协作不顺或进展停滞，成果延迟（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Early growth and cooperation, effort starting to show. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Collaboration stalls or progress is delayed. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, early growth and cooperation, effort starting to show (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, collaboration stalls or progress is delayed (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, early growth and cooperation, effort starting to show (the Water energy of Cups).",
+        "reversed": "In people and feelings, collaboration stalls or progress is delayed (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, early growth and cooperation, effort starting to show (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, collaboration stalls or progress is delayed (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1281,6 +2200,11 @@
       "圣杯",
       "四",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Four",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1299,6 +2223,24 @@
         "upright": "在价值与满足感方面，稳固与休整，把已有的基础守好（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，过度保守或停滞，也可能是根基松动（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Stability and consolidation, guarding what you have built. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Over-caution or stagnation, or shaky foundations. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, stability and consolidation, guarding what you have built (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, over-caution or stagnation, or shaky foundations (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, stability and consolidation, guarding what you have built (the Water energy of Cups).",
+        "reversed": "In people and feelings, over-caution or stagnation, or shaky foundations (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, stability and consolidation, guarding what you have built (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, over-caution or stagnation, or shaky foundations (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1313,6 +2255,11 @@
       "圣杯",
       "五",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Five",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1331,6 +2278,24 @@
         "upright": "在价值与满足感方面，冲突与考验，遇到挑战与失落（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，冲突缓和或从挫折中走出（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Conflict and testing, meeting challenge and loss. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "The conflict eases, or you climb out of a setback. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, conflict and testing, meeting challenge and loss (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, the conflict eases, or you climb out of a setback (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, conflict and testing, meeting challenge and loss (the Water energy of Cups).",
+        "reversed": "In people and feelings, the conflict eases, or you climb out of a setback (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, conflict and testing, meeting challenge and loss (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, the conflict eases, or you climb out of a setback (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1345,6 +2310,11 @@
       "圣杯",
       "六",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Six",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1363,6 +2333,24 @@
         "upright": "在价值与满足感方面，和谐与回馈，付出与收获趋于平衡（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，失衡或旧问题重现，回馈受阻（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Harmony and reward, giving and receiving in balance. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Imbalance or old problems resurfacing; reward is blocked. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, harmony and reward, giving and receiving in balance (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, imbalance or old problems resurfacing; reward is blocked (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, harmony and reward, giving and receiving in balance (the Water energy of Cups).",
+        "reversed": "In people and feelings, imbalance or old problems resurfacing; reward is blocked (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, harmony and reward, giving and receiving in balance (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, imbalance or old problems resurfacing; reward is blocked (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1377,6 +2365,11 @@
       "圣杯",
       "七",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Seven",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1395,6 +2388,24 @@
         "upright": "在价值与满足感方面，考验耐心与坚持，需要评估与取舍（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，分心、拖延或努力方向偏差（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "A test of patience and persistence, needing assessment and choice. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Distraction, delay or misdirected effort. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, a test of patience and persistence, needing assessment and choice (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, distraction, delay or misdirected effort (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, a test of patience and persistence, needing assessment and choice (the Water energy of Cups).",
+        "reversed": "In people and feelings, distraction, delay or misdirected effort (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, a test of patience and persistence, needing assessment and choice (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, distraction, delay or misdirected effort (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1409,6 +2420,11 @@
       "圣杯",
       "八",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Eight",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1427,6 +2443,24 @@
         "upright": "在价值与满足感方面，专注投入带来进展，勤勉推动局面（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，过劳、停滞或用力过猛（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Focused effort driving progress; diligence moves things forward. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Overwork, stagnation, or too much force. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, focused effort driving progress; diligence moves things forward (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, overwork, stagnation, or too much force (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, focused effort driving progress; diligence moves things forward (the Water energy of Cups).",
+        "reversed": "In people and feelings, overwork, stagnation, or too much force (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, focused effort driving progress; diligence moves things forward (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, overwork, stagnation, or too much force (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1441,6 +2475,11 @@
       "圣杯",
       "九",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Nine",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1459,6 +2498,24 @@
         "upright": "在价值与满足感方面，接近成果，坚持后的收获在望（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，焦虑或独木难支，成果差临门一脚（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Near the result, the harvest of persistence in sight. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Anxiety or going it alone; results fall just short. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, near the result, the harvest of persistence in sight (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, anxiety or going it alone; results fall just short (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, near the result, the harvest of persistence in sight (the Water energy of Cups).",
+        "reversed": "In people and feelings, anxiety or going it alone; results fall just short (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, near the result, the harvest of persistence in sight (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, anxiety or going it alone; results fall just short (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1473,6 +2530,11 @@
       "圣杯",
       "十",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Ten",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1491,6 +2553,24 @@
         "upright": "在价值与满足感方面，一个循环的圆满与完成，也是新阶段的起点（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，重担或收尾不顺，圆满受阻（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The fullness and completion of a cycle, and a new beginning. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Burden or a rough finish; completion is blocked. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, the fullness and completion of a cycle, and a new beginning (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, burden or a rough finish; completion is blocked (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, the fullness and completion of a cycle, and a new beginning (the Water energy of Cups).",
+        "reversed": "In people and feelings, burden or a rough finish; completion is blocked (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, the fullness and completion of a cycle, and a new beginning (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, burden or a rough finish; completion is blocked (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1505,6 +2585,11 @@
       "圣杯",
       "侍从",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Page",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1523,6 +2608,24 @@
         "upright": "在价值与满足感方面，好奇与学习的新手能量，带着热忱去尝试与探索（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，不成熟或三分钟热度，行动缺乏根基（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The curious, learning energy of a beginner, trying and exploring with heart. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Immaturity or a fleeting spark; action without grounding. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, the curious, learning energy of a beginner, trying and exploring with heart (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, immaturity or a fleeting spark; action without grounding (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, the curious, learning energy of a beginner, trying and exploring with heart (the Water energy of Cups).",
+        "reversed": "In people and feelings, immaturity or a fleeting spark; action without grounding (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, the curious, learning energy of a beginner, trying and exploring with heart (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, immaturity or a fleeting spark; action without grounding (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1537,6 +2640,11 @@
       "圣杯",
       "骑士",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Knight",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1555,6 +2663,24 @@
         "upright": "在价值与满足感方面，行动派的推进力量，勇往直前追求目标（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，冲动或方向不稳，用力过猛（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The driving force of action, charging ahead toward a goal. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Impulsiveness or unsteady direction; too much force. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, the driving force of action, charging ahead toward a goal (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, impulsiveness or unsteady direction; too much force (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, the driving force of action, charging ahead toward a goal (the Water energy of Cups).",
+        "reversed": "In people and feelings, impulsiveness or unsteady direction; too much force (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, the driving force of action, charging ahead toward a goal (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, impulsiveness or unsteady direction; too much force (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1569,6 +2695,11 @@
       "圣杯",
       "皇后",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "Queen",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1587,6 +2718,24 @@
         "upright": "在价值与满足感方面，成熟而内敛地掌握此花色的能量，以包容与智慧滋养（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，情绪化或掌控失衡，能量向内耗散（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Mastering this suit's energy inwardly, nurturing with warmth and wisdom. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Emotional or unbalanced control; the energy drains inward. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, emotional or unbalanced control; the energy drains inward (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Water energy of Cups).",
+        "reversed": "In people and feelings, emotional or unbalanced control; the energy drains inward (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, emotional or unbalanced control; the energy drains inward (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1601,6 +2750,11 @@
       "圣杯",
       "国王",
       "水"
+    ],
+    "keywordsEn": [
+      "Cups",
+      "King",
+      "Water"
     ],
     "meanings": {
       "general": {
@@ -1619,6 +2773,24 @@
         "upright": "在价值与满足感方面，成熟而权威地驾驭此花色的能量，以远见与担当主导（圣杯的水元素能量）。",
         "reversed": "在价值与满足感方面，专断或失控，权威被滥用（圣杯的水元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Mastering this suit's energy with authority, leading with vision and responsibility. The theme of emotion, relationship and the heart surfaces in your life.",
+        "reversed": "Domineering or out of control; authority misused. Watch for imbalance around emotion, relationship and the heart."
+      },
+      "love": {
+        "upright": "In feelings and intimacy, mastering this suit's energy with authority, leading with vision and responsibility (the Water energy of Cups).",
+        "reversed": "In feelings and intimacy, domineering or out of control; authority misused (the Water energy of Cups)."
+      },
+      "career": {
+        "upright": "In people and feelings, mastering this suit's energy with authority, leading with vision and responsibility (the Water energy of Cups).",
+        "reversed": "In people and feelings, domineering or out of control; authority misused (the Water energy of Cups)."
+      },
+      "wealth": {
+        "upright": "In value and fulfillment, mastering this suit's energy with authority, leading with vision and responsibility (the Water energy of Cups).",
+        "reversed": "In value and fulfillment, domineering or out of control; authority misused (the Water energy of Cups)."
+      }
     }
   },
   {
@@ -1633,6 +2805,11 @@
       "宝剑",
       "王牌",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Ace",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -1651,6 +2828,24 @@
         "upright": "在理性与风险方面，全新能量的种子，一个纯粹而充满潜力的开端（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，开端受阻或机会尚未把握，能量还未落地（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The seed of fresh, pure potential — a promising beginning. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "The opening is blocked or the chance not yet grasped; the energy hasn't landed. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, the seed of fresh, pure potential — a promising beginning (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, the seed of fresh, pure potential — a promising beginning (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, the seed of fresh, pure potential — a promising beginning (the Air energy of Swords).",
+        "reversed": "In reason and risk, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -1665,6 +2860,11 @@
       "宝剑",
       "二",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Two",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -1683,6 +2883,24 @@
         "upright": "在理性与风险方面，平衡与选择，两股力量之间的协调与初步决定（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，失衡或犹豫，难以取舍（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Balance and choice, coordinating two forces and an early decision. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Imbalance or hesitation, hard to choose. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, balance and choice, coordinating two forces and an early decision (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, imbalance or hesitation, hard to choose (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, balance and choice, coordinating two forces and an early decision (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, imbalance or hesitation, hard to choose (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, balance and choice, coordinating two forces and an early decision (the Air energy of Swords).",
+        "reversed": "In reason and risk, imbalance or hesitation, hard to choose (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -1697,6 +2915,11 @@
       "宝剑",
       "三",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Three",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -1715,6 +2938,24 @@
         "upright": "在理性与风险方面，初步的成长与合作，努力开始显现成果（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，协作不顺或进展停滞，成果延迟（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Early growth and cooperation, effort starting to show. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Collaboration stalls or progress is delayed. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, early growth and cooperation, effort starting to show (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, collaboration stalls or progress is delayed (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, early growth and cooperation, effort starting to show (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, collaboration stalls or progress is delayed (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, early growth and cooperation, effort starting to show (the Air energy of Swords).",
+        "reversed": "In reason and risk, collaboration stalls or progress is delayed (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -1729,6 +2970,11 @@
       "宝剑",
       "四",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Four",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -1747,6 +2993,24 @@
         "upright": "在理性与风险方面，稳固与休整，把已有的基础守好（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，过度保守或停滞，也可能是根基松动（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Stability and consolidation, guarding what you have built. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Over-caution or stagnation, or shaky foundations. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, stability and consolidation, guarding what you have built (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, over-caution or stagnation, or shaky foundations (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, stability and consolidation, guarding what you have built (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, over-caution or stagnation, or shaky foundations (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, stability and consolidation, guarding what you have built (the Air energy of Swords).",
+        "reversed": "In reason and risk, over-caution or stagnation, or shaky foundations (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -1761,6 +3025,11 @@
       "宝剑",
       "五",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Five",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -1779,6 +3048,24 @@
         "upright": "在理性与风险方面，冲突与考验，遇到挑战与失落（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，冲突缓和或从挫折中走出（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Conflict and testing, meeting challenge and loss. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "The conflict eases, or you climb out of a setback. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, conflict and testing, meeting challenge and loss (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, the conflict eases, or you climb out of a setback (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, conflict and testing, meeting challenge and loss (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, the conflict eases, or you climb out of a setback (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, conflict and testing, meeting challenge and loss (the Air energy of Swords).",
+        "reversed": "In reason and risk, the conflict eases, or you climb out of a setback (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -1793,6 +3080,11 @@
       "宝剑",
       "六",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Six",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -1811,6 +3103,24 @@
         "upright": "在理性与风险方面，和谐与回馈，付出与收获趋于平衡（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，失衡或旧问题重现，回馈受阻（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Harmony and reward, giving and receiving in balance. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Imbalance or old problems resurfacing; reward is blocked. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, harmony and reward, giving and receiving in balance (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, imbalance or old problems resurfacing; reward is blocked (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, harmony and reward, giving and receiving in balance (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, imbalance or old problems resurfacing; reward is blocked (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, harmony and reward, giving and receiving in balance (the Air energy of Swords).",
+        "reversed": "In reason and risk, imbalance or old problems resurfacing; reward is blocked (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -1825,6 +3135,11 @@
       "宝剑",
       "七",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Seven",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -1843,6 +3158,24 @@
         "upright": "在理性与风险方面，考验耐心与坚持，需要评估与取舍（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，分心、拖延或努力方向偏差（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "A test of patience and persistence, needing assessment and choice. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Distraction, delay or misdirected effort. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, a test of patience and persistence, needing assessment and choice (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, distraction, delay or misdirected effort (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, a test of patience and persistence, needing assessment and choice (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, distraction, delay or misdirected effort (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, a test of patience and persistence, needing assessment and choice (the Air energy of Swords).",
+        "reversed": "In reason and risk, distraction, delay or misdirected effort (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -1857,6 +3190,11 @@
       "宝剑",
       "八",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Eight",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -1875,6 +3213,24 @@
         "upright": "在理性与风险方面，专注投入带来进展，勤勉推动局面（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，过劳、停滞或用力过猛（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Focused effort driving progress; diligence moves things forward. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Overwork, stagnation, or too much force. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, focused effort driving progress; diligence moves things forward (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, overwork, stagnation, or too much force (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, focused effort driving progress; diligence moves things forward (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, overwork, stagnation, or too much force (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, focused effort driving progress; diligence moves things forward (the Air energy of Swords).",
+        "reversed": "In reason and risk, overwork, stagnation, or too much force (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -1889,6 +3245,11 @@
       "宝剑",
       "九",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Nine",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -1907,6 +3268,24 @@
         "upright": "在理性与风险方面，接近成果，坚持后的收获在望（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，焦虑或独木难支，成果差临门一脚（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Near the result, the harvest of persistence in sight. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Anxiety or going it alone; results fall just short. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, near the result, the harvest of persistence in sight (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, anxiety or going it alone; results fall just short (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, near the result, the harvest of persistence in sight (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, anxiety or going it alone; results fall just short (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, near the result, the harvest of persistence in sight (the Air energy of Swords).",
+        "reversed": "In reason and risk, anxiety or going it alone; results fall just short (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -1921,6 +3300,11 @@
       "宝剑",
       "十",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Ten",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -1939,6 +3323,24 @@
         "upright": "在理性与风险方面，一个循环的圆满与完成，也是新阶段的起点（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，重担或收尾不顺，圆满受阻（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The fullness and completion of a cycle, and a new beginning. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Burden or a rough finish; completion is blocked. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, the fullness and completion of a cycle, and a new beginning (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, burden or a rough finish; completion is blocked (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, the fullness and completion of a cycle, and a new beginning (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, burden or a rough finish; completion is blocked (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, the fullness and completion of a cycle, and a new beginning (the Air energy of Swords).",
+        "reversed": "In reason and risk, burden or a rough finish; completion is blocked (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -1953,6 +3355,11 @@
       "宝剑",
       "侍从",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Page",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -1971,6 +3378,24 @@
         "upright": "在理性与风险方面，好奇与学习的新手能量，带着热忱去尝试与探索（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，不成熟或三分钟热度，行动缺乏根基（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The curious, learning energy of a beginner, trying and exploring with heart. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Immaturity or a fleeting spark; action without grounding. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, the curious, learning energy of a beginner, trying and exploring with heart (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, immaturity or a fleeting spark; action without grounding (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, the curious, learning energy of a beginner, trying and exploring with heart (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, immaturity or a fleeting spark; action without grounding (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, the curious, learning energy of a beginner, trying and exploring with heart (the Air energy of Swords).",
+        "reversed": "In reason and risk, immaturity or a fleeting spark; action without grounding (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -1985,6 +3410,11 @@
       "宝剑",
       "骑士",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Knight",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -2003,6 +3433,24 @@
         "upright": "在理性与风险方面，行动派的推进力量，勇往直前追求目标（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，冲动或方向不稳，用力过猛（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The driving force of action, charging ahead toward a goal. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Impulsiveness or unsteady direction; too much force. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, the driving force of action, charging ahead toward a goal (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, impulsiveness or unsteady direction; too much force (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, the driving force of action, charging ahead toward a goal (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, impulsiveness or unsteady direction; too much force (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, the driving force of action, charging ahead toward a goal (the Air energy of Swords).",
+        "reversed": "In reason and risk, impulsiveness or unsteady direction; too much force (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -2017,6 +3465,11 @@
       "宝剑",
       "皇后",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "Queen",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -2035,6 +3488,24 @@
         "upright": "在理性与风险方面，成熟而内敛地掌握此花色的能量，以包容与智慧滋养（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，情绪化或掌控失衡，能量向内耗散（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Mastering this suit's energy inwardly, nurturing with warmth and wisdom. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Emotional or unbalanced control; the energy drains inward. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, emotional or unbalanced control; the energy drains inward (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, emotional or unbalanced control; the energy drains inward (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Air energy of Swords).",
+        "reversed": "In reason and risk, emotional or unbalanced control; the energy drains inward (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -2049,6 +3520,11 @@
       "宝剑",
       "国王",
       "风"
+    ],
+    "keywordsEn": [
+      "Swords",
+      "King",
+      "Air"
     ],
     "meanings": {
       "general": {
@@ -2067,6 +3543,24 @@
         "upright": "在理性与风险方面，成熟而权威地驾驭此花色的能量，以远见与担当主导（宝剑的风元素能量）。",
         "reversed": "在理性与风险方面，专断或失控，权威被滥用（宝剑的风元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Mastering this suit's energy with authority, leading with vision and responsibility. The theme of thought, communication, truth and conflict surfaces in your life.",
+        "reversed": "Domineering or out of control; authority misused. Watch for imbalance around thought, communication, truth and conflict."
+      },
+      "love": {
+        "upright": "In communication and unspoken knots, mastering this suit's energy with authority, leading with vision and responsibility (the Air energy of Swords).",
+        "reversed": "In communication and unspoken knots, domineering or out of control; authority misused (the Air energy of Swords)."
+      },
+      "career": {
+        "upright": "In decisions and strategy, mastering this suit's energy with authority, leading with vision and responsibility (the Air energy of Swords).",
+        "reversed": "In decisions and strategy, domineering or out of control; authority misused (the Air energy of Swords)."
+      },
+      "wealth": {
+        "upright": "In reason and risk, mastering this suit's energy with authority, leading with vision and responsibility (the Air energy of Swords).",
+        "reversed": "In reason and risk, domineering or out of control; authority misused (the Air energy of Swords)."
+      }
     }
   },
   {
@@ -2081,6 +3575,11 @@
       "星币",
       "王牌",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Ace",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2099,6 +3598,24 @@
         "upright": "在金钱与资源方面，全新能量的种子，一个纯粹而充满潜力的开端（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，开端受阻或机会尚未把握，能量还未落地（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The seed of fresh, pure potential — a promising beginning. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "The opening is blocked or the chance not yet grasped; the energy hasn't landed. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, the seed of fresh, pure potential — a promising beginning (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, the seed of fresh, pure potential — a promising beginning (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, the seed of fresh, pure potential — a promising beginning (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, the opening is blocked or the chance not yet grasped; the energy hasn't landed (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2113,6 +3630,11 @@
       "星币",
       "二",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Two",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2131,6 +3653,24 @@
         "upright": "在金钱与资源方面，平衡与选择，两股力量之间的协调与初步决定（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，失衡或犹豫，难以取舍（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Balance and choice, coordinating two forces and an early decision. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Imbalance or hesitation, hard to choose. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, balance and choice, coordinating two forces and an early decision (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, imbalance or hesitation, hard to choose (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, balance and choice, coordinating two forces and an early decision (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, imbalance or hesitation, hard to choose (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, balance and choice, coordinating two forces and an early decision (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, imbalance or hesitation, hard to choose (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2145,6 +3685,11 @@
       "星币",
       "三",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Three",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2163,6 +3708,24 @@
         "upright": "在金钱与资源方面，初步的成长与合作，努力开始显现成果（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，协作不顺或进展停滞，成果延迟（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Early growth and cooperation, effort starting to show. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Collaboration stalls or progress is delayed. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, early growth and cooperation, effort starting to show (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, collaboration stalls or progress is delayed (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, early growth and cooperation, effort starting to show (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, collaboration stalls or progress is delayed (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, early growth and cooperation, effort starting to show (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, collaboration stalls or progress is delayed (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2177,6 +3740,11 @@
       "星币",
       "四",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Four",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2195,6 +3763,24 @@
         "upright": "在金钱与资源方面，稳固与休整，把已有的基础守好（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，过度保守或停滞，也可能是根基松动（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Stability and consolidation, guarding what you have built. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Over-caution or stagnation, or shaky foundations. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, stability and consolidation, guarding what you have built (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, over-caution or stagnation, or shaky foundations (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, stability and consolidation, guarding what you have built (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, over-caution or stagnation, or shaky foundations (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, stability and consolidation, guarding what you have built (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, over-caution or stagnation, or shaky foundations (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2209,6 +3795,11 @@
       "星币",
       "五",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Five",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2227,6 +3818,24 @@
         "upright": "在金钱与资源方面，冲突与考验，遇到挑战与失落（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，冲突缓和或从挫折中走出（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Conflict and testing, meeting challenge and loss. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "The conflict eases, or you climb out of a setback. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, conflict and testing, meeting challenge and loss (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, the conflict eases, or you climb out of a setback (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, conflict and testing, meeting challenge and loss (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, the conflict eases, or you climb out of a setback (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, conflict and testing, meeting challenge and loss (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, the conflict eases, or you climb out of a setback (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2241,6 +3850,11 @@
       "星币",
       "六",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Six",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2259,6 +3873,24 @@
         "upright": "在金钱与资源方面，和谐与回馈，付出与收获趋于平衡（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，失衡或旧问题重现，回馈受阻（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Harmony and reward, giving and receiving in balance. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Imbalance or old problems resurfacing; reward is blocked. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, harmony and reward, giving and receiving in balance (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, imbalance or old problems resurfacing; reward is blocked (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, harmony and reward, giving and receiving in balance (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, imbalance or old problems resurfacing; reward is blocked (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, harmony and reward, giving and receiving in balance (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, imbalance or old problems resurfacing; reward is blocked (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2273,6 +3905,11 @@
       "星币",
       "七",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Seven",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2291,6 +3928,24 @@
         "upright": "在金钱与资源方面，考验耐心与坚持，需要评估与取舍（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，分心、拖延或努力方向偏差（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "A test of patience and persistence, needing assessment and choice. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Distraction, delay or misdirected effort. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, a test of patience and persistence, needing assessment and choice (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, distraction, delay or misdirected effort (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, a test of patience and persistence, needing assessment and choice (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, distraction, delay or misdirected effort (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, a test of patience and persistence, needing assessment and choice (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, distraction, delay or misdirected effort (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2305,6 +3960,11 @@
       "星币",
       "八",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Eight",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2323,6 +3983,24 @@
         "upright": "在金钱与资源方面，专注投入带来进展，勤勉推动局面（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，过劳、停滞或用力过猛（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Focused effort driving progress; diligence moves things forward. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Overwork, stagnation, or too much force. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, focused effort driving progress; diligence moves things forward (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, overwork, stagnation, or too much force (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, focused effort driving progress; diligence moves things forward (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, overwork, stagnation, or too much force (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, focused effort driving progress; diligence moves things forward (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, overwork, stagnation, or too much force (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2337,6 +4015,11 @@
       "星币",
       "九",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Nine",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2355,6 +4038,24 @@
         "upright": "在金钱与资源方面，接近成果，坚持后的收获在望（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，焦虑或独木难支，成果差临门一脚（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Near the result, the harvest of persistence in sight. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Anxiety or going it alone; results fall just short. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, near the result, the harvest of persistence in sight (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, anxiety or going it alone; results fall just short (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, near the result, the harvest of persistence in sight (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, anxiety or going it alone; results fall just short (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, near the result, the harvest of persistence in sight (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, anxiety or going it alone; results fall just short (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2369,6 +4070,11 @@
       "星币",
       "十",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Ten",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2387,6 +4093,24 @@
         "upright": "在金钱与资源方面，一个循环的圆满与完成，也是新阶段的起点（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，重担或收尾不顺，圆满受阻（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The fullness and completion of a cycle, and a new beginning. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Burden or a rough finish; completion is blocked. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, the fullness and completion of a cycle, and a new beginning (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, burden or a rough finish; completion is blocked (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, the fullness and completion of a cycle, and a new beginning (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, burden or a rough finish; completion is blocked (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, the fullness and completion of a cycle, and a new beginning (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, burden or a rough finish; completion is blocked (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2401,6 +4125,11 @@
       "星币",
       "侍从",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Page",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2419,6 +4148,24 @@
         "upright": "在金钱与资源方面，好奇与学习的新手能量，带着热忱去尝试与探索（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，不成熟或三分钟热度，行动缺乏根基（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The curious, learning energy of a beginner, trying and exploring with heart. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Immaturity or a fleeting spark; action without grounding. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, the curious, learning energy of a beginner, trying and exploring with heart (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, immaturity or a fleeting spark; action without grounding (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, the curious, learning energy of a beginner, trying and exploring with heart (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, immaturity or a fleeting spark; action without grounding (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, the curious, learning energy of a beginner, trying and exploring with heart (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, immaturity or a fleeting spark; action without grounding (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2433,6 +4180,11 @@
       "星币",
       "骑士",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Knight",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2451,6 +4203,24 @@
         "upright": "在金钱与资源方面，行动派的推进力量，勇往直前追求目标（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，冲动或方向不稳，用力过猛（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "The driving force of action, charging ahead toward a goal. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Impulsiveness or unsteady direction; too much force. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, the driving force of action, charging ahead toward a goal (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, impulsiveness or unsteady direction; too much force (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, the driving force of action, charging ahead toward a goal (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, impulsiveness or unsteady direction; too much force (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, the driving force of action, charging ahead toward a goal (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, impulsiveness or unsteady direction; too much force (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2465,6 +4235,11 @@
       "星币",
       "皇后",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "Queen",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2483,6 +4258,24 @@
         "upright": "在金钱与资源方面，成熟而内敛地掌握此花色的能量，以包容与智慧滋养（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，情绪化或掌控失衡，能量向内耗散（星币的土元素能量）。"
       }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Mastering this suit's energy inwardly, nurturing with warmth and wisdom. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Emotional or unbalanced control; the energy drains inward. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, emotional or unbalanced control; the energy drains inward (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, emotional or unbalanced control; the energy drains inward (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, mastering this suit's energy inwardly, nurturing with warmth and wisdom (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, emotional or unbalanced control; the energy drains inward (the Earth energy of Pentacles)."
+      }
     }
   },
   {
@@ -2497,6 +4290,11 @@
       "星币",
       "国王",
       "土"
+    ],
+    "keywordsEn": [
+      "Pentacles",
+      "King",
+      "Earth"
     ],
     "meanings": {
       "general": {
@@ -2514,6 +4312,24 @@
       "wealth": {
         "upright": "在金钱与资源方面，成熟而权威地驾驭此花色的能量，以远见与担当主导（星币的土元素能量）。",
         "reversed": "在金钱与资源方面，专断或失控，权威被滥用（星币的土元素能量）。"
+      }
+    },
+    "meaningsEn": {
+      "general": {
+        "upright": "Mastering this suit's energy with authority, leading with vision and responsibility. The theme of the material world, body and finances surfaces in your life.",
+        "reversed": "Domineering or out of control; authority misused. Watch for imbalance around the material world, body and finances."
+      },
+      "love": {
+        "upright": "In stability and grounding, mastering this suit's energy with authority, leading with vision and responsibility (the Earth energy of Pentacles).",
+        "reversed": "In stability and grounding, domineering or out of control; authority misused (the Earth energy of Pentacles)."
+      },
+      "career": {
+        "upright": "In pragmatism and building, mastering this suit's energy with authority, leading with vision and responsibility (the Earth energy of Pentacles).",
+        "reversed": "In pragmatism and building, domineering or out of control; authority misused (the Earth energy of Pentacles)."
+      },
+      "wealth": {
+        "upright": "In money and resources, mastering this suit's energy with authority, leading with vision and responsibility (the Earth energy of Pentacles).",
+        "reversed": "In money and resources, domineering or out of control; authority misused (the Earth energy of Pentacles)."
       }
     }
   }

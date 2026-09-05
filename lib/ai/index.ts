@@ -8,7 +8,16 @@
 // 关键原则：绝不把你自己的共享 API Key 明文放进前端产物（PRD §5.3）。
 import type { Interpreter, InterpretContext, InterpretDraw } from "./types";
 import { placeholderInterpreter } from "./placeholder";
-import { getCard, getSpread, getMeaning, CATEGORIES } from "@/lib/data";
+import {
+  getCard,
+  getSpread,
+  getMeaning,
+  CATEGORIES,
+  spreadName,
+  spreadHowTo,
+  positionLabel,
+  cardName,
+} from "@/lib/data";
 import type { Category, Draw } from "@/types/tarot";
 
 export type { Interpreter, InterpretContext, InterpretDraw };
@@ -26,7 +35,8 @@ export function buildContext(
   category: Category,
   question: string,
   spreadId: string,
-  draws: Draw[]
+  draws: Draw[],
+  locale: "zh" | "en" = "zh"
 ): InterpretContext {
   const spread = getSpread(spreadId);
   const cat = CATEGORIES.find((c) => c.id === category);
@@ -34,20 +44,23 @@ export function buildContext(
     const card = getCard(d.cardId);
     const pos = spread?.positions.find((p) => p.index === d.position);
     return {
-      positionLabel: pos?.label ?? `位置 ${d.position + 1}`,
+      positionLabel:
+        positionLabel(pos, locale) ??
+        (locale === "en" ? `Position ${d.position + 1}` : `位置 ${d.position + 1}`),
       positionMeaning: pos?.meaning ?? "",
-      cardName: card?.name ?? d.cardId,
+      cardName: card ? cardName(card, locale) : d.cardId,
       cardEn: card?.en ?? "",
       reversed: d.reversed,
-      meaning: card ? getMeaning(card, category, d.reversed) : "",
+      meaning: card ? getMeaning(card, category, d.reversed, locale) : "",
     };
   });
   return {
+    locale,
     category,
-    categoryLabel: cat?.zh ?? category,
+    categoryLabel: cat ? (locale === "en" ? cat.en : cat.zh) : category,
     question,
-    spreadName: spread?.name ?? "",
-    howToRead: spread?.howToRead ?? "",
+    spreadName: spread ? spreadName(spread, locale) : "",
+    howToRead: spread ? spreadHowTo(spread, locale) : "",
     draws: interpretDraws,
   };
 }
