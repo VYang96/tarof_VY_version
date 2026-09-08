@@ -29,6 +29,12 @@ export const dict = {
   "home.f3.title": { zh: "你的节奏", en: "Your Pace" },
   "home.f3.desc": { zh: "离线可用，历史陪你慢慢看清。", en: "Works offline; your history, seen over time." },
   "home.plusLink": { zh: "了解 Plus 订阅 →", en: "See Plus →" },
+  "home.welcome": { zh: "欢迎回来", en: "Welcome back" },
+  "home.quickStart": { zh: "快速占卜", en: "Quick reading" },
+  "home.recent": { zh: "最近记录", en: "Recent readings" },
+  "home.seeAll": { zh: "查看全部 →", en: "See all →" },
+  "home.tapReveal": { zh: "轻触翻开今日指引", en: "Tap to reveal today's card" },
+  "home.noRecent": { zh: "还没有记录，抽一次吧", en: "No readings yet — draw one" },
 
   "flow.chooseCategory": { zh: "你想问什么？", en: "What's on your mind?" },
   "flow.question": { zh: "把问题说清楚一点", en: "Frame your question" },
