@@ -44,8 +44,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="zh-CN"
       data-theme="dark"
       className={`${cormorant.variable} h-full antialiased`}
+      style={{ backgroundColor: "#14121f" }}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col" style={{ backgroundColor: "#14121f" }}>
         <div className="aurora" aria-hidden />
         <div className="starfield" aria-hidden />
         <AppShell>{children}</AppShell>

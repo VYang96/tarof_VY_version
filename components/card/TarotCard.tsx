@@ -135,7 +135,9 @@ export function CardFace({
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={src}
-          alt={card?.name ?? ""}
+          alt={reversed ? `${title}（${revBadge}）` : title}
+          loading="lazy"
+          decoding="async"
           onLoad={() => setImgOk(true)}
           onError={() => setImgOk(false)}
           className={`absolute inset-0 h-full w-full object-contain transition-opacity duration-300 ${

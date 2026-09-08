@@ -253,8 +253,8 @@ function StepDraw({ spreadId }: { spreadId: string | null }) {
         </button>
       ) : (
         <motion.button
-          initial={reduce ? false : { opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={reduce ? false : { scale: 0.9 }}
+          animate={{ scale: 1 }}
           whileHover={{ scale: 1.04 }}
           whileTap={{ scale: 0.96 }}
           onClick={handleDraw}
@@ -268,6 +268,6 @@ function StepDraw({ spreadId }: { spreadId: string | null }) {
 }
 
 const fadeUp = {
-  hidden: { opacity: 0, y: 16 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.35 } },
+  hidden: { y: 16 },
+  show: { y: 0, transition: { duration: 0.35 } },
 };

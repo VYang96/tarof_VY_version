@@ -1,16 +1,4 @@
-"use client";
-import { motion, useReducedMotion } from "framer-motion";
-
-// App Router 的 template 会在每次路由切换时重新挂载 —— 用来做进场过渡
+// 路由进场过渡：用纯 CSS 动画（不依赖 JS 水合），避免脚本慢/失败时内容卡在透明。
 export default function Template({ children }: { children: React.ReactNode }) {
-  const reduce = useReducedMotion();
-  return (
-    <motion.div
-      initial={reduce ? false : { opacity: 0, y: 12 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-    >
-      {children}
-    </motion.div>
-  );
+  return <div className="page-enter">{children}</div>;
 }
